@@ -1,4 +1,15 @@
-# 定义颜色
+import pygame
+import random
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import numpy as np
+import random
+from collections import namedtuple, deque
+
+#设置torch的种子
+
+
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
@@ -24,8 +35,7 @@ def return_para():
 
 road_y, road_x, road_width, _, _ = return_para()
 
-import pygame
-import random
+
 def is_add_car(current_frame, interval_frame, p):
     if current_frame % interval_frame==0:
         if random.randint(0,99)/100 < p:
@@ -40,6 +50,9 @@ class Car:
         self.direction = direction
         self.speed = speed  # 初始速度为0
         self.max_speed = 5  # 最大速度
+
+        # TODO：这里最大加速度和自由减速度相等，会不会使得车没办法加速啊
+
         self.max_acceleration = 0.1  # 加速度
         self.max_deceleration = 0.3  # 刹车减速度
         self.free_deceleration = 0.1  # 自由减速度
@@ -68,12 +81,16 @@ class Car:
             self.speed = max(self.speed, 0)
             self.speed = min(self.speed, self.max_speed)
             self.x += self.speed
+            return self.speed
 
         elif self.direction == -1:
             self.speed += acceleration
             self.speed = max(self.speed, 0)
             self.speed = min(self.speed, self.max_speed)
             self.y += self.speed
+            return self.speed
+        
+        # TODO：这个地方是不是忘记调整车的加速度了，好像只有速度变化了，加速度没动？
 
         
 
@@ -108,7 +125,7 @@ import gym
 from gym import spaces
 import numpy as np
 class CarEnv(gym.Env):
-    def __init__(self):
+    def __init__(self,frame1=100,frame2=40,prob1=1,prob2=1):
         super(CarEnv, self).__init__()
         self.road_y, self.road_x, self.road_width, self.FPS, self.total_frames = return_para()
         
@@ -117,6 +134,8 @@ class CarEnv(gym.Env):
         self.add_car_fail = 0
         self.count = 0
         self.col_count = 0
+        self.frame_freq1 = frame1
+        self.frame_freq2 = frame2
         
         # 定义动作空间和状态空间
         self.max_cars = 16  # 最大车辆数量
@@ -128,19 +147,24 @@ class CarEnv(gym.Env):
         self.frame = 0
         self.add_car_fail = 0
         self.count = 0
+        self.col_count = 0
         return self._get_state()
 
     def step(self, action):
         self.frame += 1
-        
+        reward = 0
         # 根据动作调整加速度
         for i, car in enumerate(self.cars):
-            car.update(action[i])
+            car_speed = int(car.update(action[i]))
+            if car_speed == 0:
+                reward -= 10
+            reward += car_speed* 3
+            
 
         fail_count = 0
         # 添加新车
         if len(self.cars) < self.max_cars:
-            if is_add_car(self.frame, 50, 1):
+            if is_add_car(self.frame, self.frame_freq1, 1):
                 t_car = Car(0, self.road_y + (self.road_width - 30) / 2, 1, 3)
                 t_car.collision = t_car.check_collision(self.cars)
                 if t_car.collision is None:
@@ -149,7 +173,7 @@ class CarEnv(gym.Env):
                     self.add_car_fail += 1
                     fail_count += 1
 
-            if is_add_car(self.frame, 20, 1):
+            if is_add_car(self.frame, self.frame_freq2, 1):
                 t_car = Car(self.road_x + (self.road_width - 30) / 2, 0, -1, 3)
                 t_car.collision = t_car.check_collision(self.cars)
                 if t_car.collision is None:
@@ -160,12 +184,13 @@ class CarEnv(gym.Env):
 
         # 计算奖励
         # reward = -len(self.cars)  # 简单的奖励函数，车辆越少越好
-        reward = - (fail_count * 3000)
+        # TODO: 这里的reward
+        reward -= (fail_count * 500)
         for car in self.cars:
             # reward += car.speed * 5
             car.collision = car.check_collision(self.cars)
             if car.collision != None:
-                reward -= 5000
+                reward -= 1000
                 car.avai = False
                 car.collision.avai = False
                 self.col_count += 1
@@ -173,7 +198,7 @@ class CarEnv(gym.Env):
         for car in self.cars:
             if not(car.x <= 1000 and car.y <= 1000):
                 self.count += 1
-                reward += 5000
+                reward += 500
         self.cars = [car for car in self.cars if car.x <= 1000 and car.y <= 1000 and ((car.collision == None) or (car.collision.avai))]
         
 
@@ -183,7 +208,17 @@ class CarEnv(gym.Env):
         return self._get_state(), reward, done, {}
 
     def render(self, mode='human'):
-        pass
+        # print 当前的frame，状态
+        print(f"Frame: {self.frame}")
+        print(f"State: {self._get_state()}")
+        print(f"Car count: {len(self.cars)}")
+        print(f"Collision count: {self.col_count}")
+        print(f"Add car fail count: {self.add_car_fail}")
+        print(f"Flow: {self.count / self.frame}")
+        print("Cars:")
+        for car in self.cars:
+            print(f"Car: {car.x}, {car.y}, {car.speed}, {car.direction}")
+        print("")
 
     def _get_state(self):
         state = []
@@ -195,12 +230,6 @@ class CarEnv(gym.Env):
         return np.array(state, dtype=np.float32)
 
 
-import torch
-import torch.nn as nn
-import torch.optim as optim
-import numpy as np
-import random
-from collections import namedtuple, deque
 
 class GaussianNoise:
     def __init__(self, action_dim, sigma=0.1):
@@ -234,23 +263,19 @@ def affine(x, a, b):
 class Actor(nn.Module):
     def __init__(self, state_dim, action_dim, min_action, max_action):
         super(Actor, self).__init__()
-        self.l1 = nn.Linear(state_dim, 100)
-        self.l2 = nn.Linear(100, 400)
-        self.l3 = nn.Linear(400, 400)
-        self.l4 = nn.Linear(400, 400)
-        self.l5 = nn.Linear(400, 100)
-        self.l6 = nn.Linear(100, 40)
-        self.l7 = nn.Linear(40, action_dim)
+        self.l1 = nn.Linear(state_dim, 256)
+        self.l2 = nn.Linear(256, 256)
+        # self.l5 = nn.Linear(400, 100)
+        # self.l6 = nn.Linear(100, 40)
+        self.l7 = nn.Linear(256, action_dim)
         self.min_action = min_action
         self.max_action = max_action
 
     def forward(self, x):
-        x = self.l1(x)
+        x = torch.relu(self.l1(x))
         x = torch.relu(self.l2(x))
-        # x = self.l3(x)
-        # x = self.l4(x)
-        x = self.l5(x)
-        x = torch.relu(self.l6(x))
+        # x = torch.relu(self.l5(x))
+        # x = torch.relu(self.l6(x))
         x = torch.tanh(self.l7(x))
         x = affine(x, self.min_action, self.max_action)
         return x
@@ -258,22 +283,20 @@ class Actor(nn.Module):
 class Critic(nn.Module):
     def __init__(self, state_dim, action_dim):
         super(Critic, self).__init__()
-        self.l1 = nn.Linear(state_dim + action_dim, 100)
-        self.l2 = nn.Linear(100, 400)
-        self.l3 = nn.Linear(400, 400)
-        self.l4 = nn.Linear(400, 400)
-        self.l5 = nn.Linear(400, 100)
-        self.l6 = nn.Linear(100, 40)
-        self.l7 = nn.Linear(40, 1)
+        self.l1 = nn.Linear(state_dim + action_dim, 400)
+        self.l2 = nn.Linear(400, 400)
+        self.l5 = nn.Linear(400, 32)
+        # self.l6 = nn.Linear(100, 40)
+        self.l7 = nn.Linear(32, 1)
 
     def forward(self, x, u):
         x = torch.cat([x, u], 1)
-        x = self.l1(x)
+        x = torch.relu(self.l1(x))
         x = torch.relu(self.l2(x))
         # x = self.l3(x)
         # x = self.l4(x)
-        x = self.l5(x)
-        x = torch.relu(self.l6(x))
+        # x = self.l5(x)
+        x = torch.relu(self.l5(x))
         x = self.l7(x)
         return x
 
@@ -296,9 +319,10 @@ class DDPG:
         self.max_action = max_action
         self.replay_buffer = ReplayBuffer(100000)
         self.batch_size = 1000
-        self.gamma = 0.6
-        self.tau = 0.001
-
+        self.gamma = 0.99
+        self.tau = 0.002
+        
+        # self.update_frequency = 20
      # 使用高斯噪声或Ornstein-Uhlenbeck噪声
         # self.noise = GaussianNoise(action_dim, sigma=0.1)
         # self.noise = OrnsteinUhlenbeckNoise(action_dim, mu=0, theta=0.15, sigma=0.2)
@@ -351,4 +375,5 @@ class DDPG:
         for param, target_param in zip(self.actor.parameters(), self.actor_target.parameters()):
             target_param.data.copy_(self.tau * param.data + (1 - self.tau) * target_param.data)
 
-
+if __name__ == '__main__':
+    print('OK')

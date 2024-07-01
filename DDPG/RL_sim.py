@@ -47,8 +47,8 @@ max_action = env.action_space.high[0]
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 ddpg_agent = DDPG(state_dim, action_dim, min_action, max_action, device)
-ddpg_agent.actor.load_state_dict(torch.load("Actor_best_10000.pth", map_location=torch.device('cpu')))
-ddpg_agent.critic.load_state_dict(torch.load("Critic_best_10000.pth", map_location=torch.device('cpu')))
+ddpg_agent.actor.load_state_dict(torch.load("Actor_best_-64000.pth", map_location=torch.device('cpu')))
+ddpg_agent.critic.load_state_dict(torch.load("Critic_best_-64000.pth", map_location=torch.device('cpu')))
 ddpg_agent.actor_target.load_state_dict(ddpg_agent.actor.state_dict())
 ddpg_agent.critic_target.load_state_dict(ddpg_agent.critic.state_dict())
 print("Models loaded")
@@ -89,7 +89,7 @@ for frame in range(1, env.total_frames+1):
   Max Flow : {flow}
   Add Fail : {env.add_car_fail}
  Collision : {env.col_count}
-   Reward  : {env.reward}
+   Reward  : {reward}
 """)
 
     screen.fill(WHITE)
