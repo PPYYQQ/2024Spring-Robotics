@@ -1,0 +1,3296 @@
+Device: cuda
+Models loaded
+Training Begin!
+The best reward is updated: -1000000000 -> 59569, Saving models...
+Frame: 1000
+State: [485.      726.52234   5.       -1.      580.2124  485.        5.
+   1.      485.      478.7362    5.       -1.      485.      228.77965
+   5.       -1.      176.98514 485.        5.        1.      485.
+   0.        3.       -1.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 6
+Collision count: 12
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 485.0, 726.5223641286315, 5, -1
+Car: 580.2124053788987, 485.0, 5, 1
+Car: 485.0, 478.7361961644899, 5, -1
+Car: 485.0, 228.7796402854067, 5, -1
+Car: 176.98514021650902, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1, Reward: 59569
+Episode 2, Reward: 55945
+Episode 3, Reward: 48249
+Episode 4, Reward: 51018
+Episode 5, Reward: 57391
+Episode 6, Reward: 55893
+The best reward is updated: 59569 -> 59644, Saving models...
+Episode 7, Reward: 59644
+The best reward is updated: 59644 -> 82482, Saving models...
+Episode 8, Reward: 82482
+Episode 9, Reward: 82371
+Episode 10, Reward: 71899
+Episode 11, Reward: 71752
+Episode 12, Reward: 71746
+Episode 13, Reward: 71824
+Episode 14, Reward: 70044
+Episode 15, Reward: 69776
+Episode 16, Reward: 69737
+Episode 17, Reward: 70402
+Episode 18, Reward: 70494
+Episode 19, Reward: 70518
+Episode 20, Reward: 70467
+Frame: 1000
+State: [978.1483  485.        5.        1.      485.      899.1218    5.
+  -1.      485.      724.0928    5.       -1.      578.1153  485.
+   5.        1.      485.      476.60196   5.       -1.      485.
+ 225.24026   5.       -1.      176.43655 485.        5.        1.
+ 485.        0.        3.       -1.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 8
+Collision count: 8
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 978.1483236178376, 485.0, 5, 1
+Car: 485.0, 899.1218197859026, 5, -1
+Car: 485.0, 724.0927542042947, 5, -1
+Car: 578.115325133801, 485.0, 5, 1
+Car: 485.0, 476.60195488680637, 5, -1
+Car: 485.0, 225.24026504705935, 5, -1
+Car: 176.43654724109257, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 21, Reward: 70560
+Episode 22, Reward: 65731
+Episode 23, Reward: 59560
+Episode 24, Reward: 59593
+Episode 25, Reward: 59605
+Episode 26, Reward: 59584
+Episode 27, Reward: 59590
+Episode 28, Reward: 59566
+Episode 29, Reward: 59566
+Episode 30, Reward: 59563
+Episode 31, Reward: 59497
+Episode 32, Reward: 59530
+Episode 33, Reward: 59593
+Episode 34, Reward: 59641
+Episode 35, Reward: 59464
+Episode 36, Reward: 59539
+Episode 37, Reward: 59521
+Episode 38, Reward: 59560
+Episode 39, Reward: 59593
+Episode 40, Reward: 59503
+Frame: 1000
+State: [485.      726.5294    5.       -1.      577.09424 485.        5.
+   1.      485.      478.75256   5.       -1.      485.      225.42815
+   5.       -1.      178.77075 485.        5.        1.      485.
+   0.        3.       -1.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 6
+Collision count: 12
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 485.0, 726.5294289245826, 5, -1
+Car: 577.0942606534195, 485.0, 5, 1
+Car: 485.0, 478.7525608145866, 5, -1
+Car: 485.0, 225.42814726501973, 5, -1
+Car: 178.77074897051622, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 41, Reward: 59563
+Episode 42, Reward: 59548
+Episode 43, Reward: 59572
+Episode 44, Reward: 59536
+Episode 45, Reward: 59563
+Episode 46, Reward: 59554
+Episode 47, Reward: 69667
+Episode 48, Reward: 69707
+Episode 49, Reward: 69685
+Episode 50, Reward: 55724
+Episode 51, Reward: 55697
+Episode 52, Reward: 61452
+Episode 53, Reward: 54999
+Episode 54, Reward: 61146
+Episode 55, Reward: 61839
+Episode 56, Reward: 61575
+Episode 57, Reward: 58663
+Episode 58, Reward: 56853
+Episode 59, Reward: 64598
+Episode 60, Reward: 59776
+Frame: 1000
+State: [887.59674 485.        5.        1.      485.      975.6345    5.
+  -1.      485.      727.8869    5.       -1.      576.9691  485.
+   5.        1.      485.      476.5604    5.       -1.      485.
+ 227.92642   5.       -1.      176.39038 485.        5.        1.
+ 485.        0.        3.       -1.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 8
+Collision count: 8
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 887.5967352520206, 485.0, 5, 1
+Car: 485.0, 975.6345485731883, 5, -1
+Car: 485.0, 727.8868747755158, 5, -1
+Car: 576.9690970988013, 485.0, 5, 1
+Car: 485.0, 476.560388698024, 5, -1
+Car: 485.0, 227.92642143014893, 5, -1
+Car: 176.39037683737584, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 61, Reward: 64896
+Episode 62, Reward: 59626
+Episode 63, Reward: 59088
+Episode 64, Reward: 58437
+Episode 65, Reward: 57281
+Episode 66, Reward: 59505
+Episode 67, Reward: 59558
+Episode 68, Reward: 57529
+Episode 69, Reward: 57428
+Episode 70, Reward: 70340
+Episode 71, Reward: 70304
+Episode 72, Reward: 65575
+Episode 73, Reward: 53284
+Episode 74, Reward: 62619
+Episode 75, Reward: 59386
+Episode 76, Reward: 59557
+Episode 77, Reward: 58730
+Episode 78, Reward: 59661
+Episode 79, Reward: 71722
+Episode 80, Reward: 75832
+Frame: 1000
+State: [974.8637  485.        5.        1.      485.      849.1904    5.
+  -1.      485.      727.73517   5.       -1.      576.90375 485.
+   5.        1.      485.      477.40683   5.       -1.      485.
+ 229.21718   5.       -1.      178.83965 485.        5.        1.
+ 485.        0.        3.       -1.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 8
+Collision count: 8
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 974.8637361430259, 485.0, 5, 1
+Car: 485.0, 849.1904039063982, 5, -1
+Car: 485.0, 727.7351882990945, 5, -1
+Car: 576.9037271603853, 485.0, 5, 1
+Car: 485.0, 477.4068208676619, 5, -1
+Car: 485.0, 229.21717869264378, 5, -1
+Car: 178.83964701134275, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 81, Reward: 69472
+Episode 82, Reward: 77259
+Episode 83, Reward: 80616
+Episode 84, Reward: 75631
+Episode 85, Reward: 64633
+Episode 86, Reward: 68373
+Episode 87, Reward: 67936
+Episode 88, Reward: 70145
+Episode 89, Reward: 70311
+Episode 90, Reward: 70009
+Episode 91, Reward: 71001
+Episode 92, Reward: 71042
+Episode 93, Reward: 71083
+Episode 94, Reward: 70999
+Episode 95, Reward: 70966
+Episode 96, Reward: 71021
+Episode 97, Reward: 77037
+Episode 98, Reward: 71173
+Episode 99, Reward: 69886
+Episode 100, Reward: 56062
+Frame: 1000
+State: [485.        921.54706     5.         -1.        485.        727.02686
+   5.         -1.        312.57593   485.          3.2355897   1.
+ 485.        462.09906     5.         -1.        485.        225.04013
+   5.         -1.        177.07002   485.          5.          1.
+ 485.          0.          3.         -1.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 7
+Collision count: 12
+Add car fail count: 0
+Flow: 0.013
+Cars:
+Car: 485.0, 921.5470845047396, 5, -1
+Car: 485.0, 727.0268310396829, 5, -1
+Car: 312.57594013054864, 485.0, 3.235589845448335, 1
+Car: 485.0, 462.0990494024018, 5, -1
+Car: 485.0, 225.0401244031671, 5, -1
+Car: 177.07002314937915, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 101, Reward: 55754
+Episode 102, Reward: 59032
+Episode 103, Reward: 56627
+Episode 104, Reward: 56493
+Episode 105, Reward: 56767
+Episode 106, Reward: 57279
+Episode 107, Reward: 64636
+Episode 108, Reward: 47700
+Episode 109, Reward: 70011
+Episode 110, Reward: 70203
+Episode 111, Reward: 76338
+Episode 112, Reward: 70302
+Episode 113, Reward: 70353
+Episode 114, Reward: 65584
+Episode 115, Reward: 75988
+Episode 116, Reward: 76249
+Episode 117, Reward: 57891
+Episode 118, Reward: 64449
+Episode 119, Reward: 64542
+Episode 120, Reward: 69782
+Frame: 1000
+State: [976.7925  485.        5.        1.      485.      901.8509    5.
+  -1.      485.      730.2796    5.       -1.      578.68414 485.
+   5.        1.      485.      477.5353    5.       -1.      485.
+ 229.9396    5.       -1.      178.2727  485.        5.        1.
+ 485.        0.        3.       -1.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 8
+Collision count: 8
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 976.7924755952545, 485.0, 5, 1
+Car: 485.0, 901.8508770106706, 5, -1
+Car: 485.0, 730.2796184986496, 5, -1
+Car: 578.6841392821193, 485.0, 5, 1
+Car: 485.0, 477.535310651742, 5, -1
+Car: 485.0, 229.93960887878666, 5, -1
+Car: 178.27270791757158, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 121, Reward: 70239
+Episode 122, Reward: 71419
+Episode 123, Reward: 64989
+Episode 124, Reward: 69729
+Episode 125, Reward: 75646
+Episode 126, Reward: 75762
+Episode 127, Reward: 69640
+Episode 128, Reward: 69727
+Episode 129, Reward: 69613
+Episode 130, Reward: 69686
+Episode 131, Reward: 69567
+Episode 132, Reward: 75653
+Episode 133, Reward: 75606
+Episode 134, Reward: 69432
+Episode 135, Reward: 69557
+Episode 136, Reward: 69557
+Episode 137, Reward: 69547
+Episode 138, Reward: 69640
+Episode 139, Reward: 69815
+Episode 140, Reward: 69499
+Frame: 1000
+State: [978.73315 485.        5.        1.      485.      898.5435    5.
+  -1.      485.      729.4826    5.       -1.      575.0257  485.
+   5.        1.      485.      476.32837   5.       -1.      485.
+ 229.68787   5.       -1.      174.6413  485.        5.        1.
+ 485.        0.        3.       -1.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 8
+Collision count: 8
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 978.7331847271657, 485.0, 5, 1
+Car: 485.0, 898.5435445443525, 5, -1
+Car: 485.0, 729.4826244476728, 5, -1
+Car: 575.025669041293, 485.0, 5, 1
+Car: 485.0, 476.3283765426881, 5, -1
+Car: 485.0, 229.6878668285396, 5, -1
+Car: 174.64129341688084, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 141, Reward: 69704
+Episode 142, Reward: 69642
+Episode 143, Reward: 69589
+Episode 144, Reward: 71335
+Episode 145, Reward: 74764
+Episode 146, Reward: 81043
+Episode 147, Reward: 76137
+Episode 148, Reward: 71626
+Episode 149, Reward: 71494
+Episode 150, Reward: 71533
+Episode 151, Reward: 71545
+Episode 152, Reward: 66176
+Episode 153, Reward: 65830
+Episode 154, Reward: 56788
+Episode 155, Reward: 65882
+Episode 156, Reward: 70272
+Episode 157, Reward: 62911
+Episode 158, Reward: 62987
+Episode 159, Reward: 63105
+Episode 160, Reward: 69837
+Frame: 1000
+State: [979.6107  485.        5.        1.      485.      889.32336   5.
+  -1.      485.      728.877     5.       -1.      577.3209  485.
+   5.        1.      485.      474.81052   5.       -1.      485.
+ 225.46982   5.       -1.      178.04414 485.        5.        1.
+ 485.        0.        3.       -1.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 8
+Collision count: 10
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 979.6107416007535, 485.0, 5, 1
+Car: 485.0, 889.3233853071605, 5, -1
+Car: 485.0, 728.8770435835801, 5, -1
+Car: 577.3209156296801, 485.0, 5, 1
+Car: 485.0, 474.8105278457722, 5, -1
+Car: 485.0, 225.46981065149384, 5, -1
+Car: 178.04414261645485, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 161, Reward: 64206
+Episode 162, Reward: 67476
+Episode 163, Reward: 64922
+Episode 164, Reward: 77706
+Episode 165, Reward: 77707
+Episode 166, Reward: 77644
+Episode 167, Reward: 65308
+Episode 168, Reward: 65139
+Episode 169, Reward: 71563
+Episode 170, Reward: 76599
+Episode 171, Reward: 71650
+Episode 172, Reward: 64464
+Episode 173, Reward: 71862
+Episode 174, Reward: 70008
+Episode 175, Reward: 65527
+Episode 176, Reward: 59506
+Episode 177, Reward: 59455
+Episode 178, Reward: 65515
+Episode 179, Reward: 71224
+Episode 180, Reward: 71308
+Frame: 1000
+State: [485.      726.3349    5.       -1.      575.3389  485.        5.
+   1.      485.      476.25174   5.       -1.      485.      225.8086
+   5.       -1.      175.52657 485.        5.        1.      485.
+   0.        3.       -1.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 6
+Collision count: 8
+Add car fail count: 0
+Flow: 0.018
+Cars:
+Car: 485.0, 726.3349058663314, 5, -1
+Car: 575.3389435544931, 485.0, 5, 1
+Car: 485.0, 476.2517352768062, 5, -1
+Car: 485.0, 225.80859517444702, 5, -1
+Car: 175.52656319527912, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 181, Reward: 71136
+Episode 182, Reward: 71178
+Episode 183, Reward: 71218
+Episode 184, Reward: 71209
+Episode 185, Reward: 71214
+Episode 186, Reward: 71348
+Episode 187, Reward: 71189
+Episode 188, Reward: 71221
+Episode 189, Reward: 71251
+Episode 190, Reward: 71262
+Episode 191, Reward: 71256
+Episode 192, Reward: 71198
+Episode 193, Reward: 71272
+Episode 194, Reward: 71249
+Episode 195, Reward: 71192
+Episode 196, Reward: 71173
+Episode 197, Reward: 71205
+Episode 198, Reward: 71211
+Episode 199, Reward: 71267
+Episode 200, Reward: 71243
+Frame: 1000
+State: [485.      728.22186   5.       -1.      575.0116  485.        5.
+   1.      485.      474.80292   5.       -1.      485.      228.97449
+   5.       -1.      176.88919 485.        5.        1.      485.
+   0.        3.       -1.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 6
+Collision count: 8
+Add car fail count: 0
+Flow: 0.018
+Cars:
+Car: 485.0, 728.2218432565071, 5, -1
+Car: 575.0116059541315, 485.0, 5, 1
+Car: 485.0, 474.80292738093596, 5, -1
+Car: 485.0, 228.97448202394057, 5, -1
+Car: 176.88919666379587, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 201, Reward: 71217
+Episode 202, Reward: 59010
+Episode 203, Reward: 67692
+Episode 204, Reward: 69878
+Episode 205, Reward: 69742
+Episode 206, Reward: 66000
+Episode 207, Reward: 61327
+Episode 208, Reward: 69395
+Episode 209, Reward: 59795
+Episode 210, Reward: 51142
+Episode 211, Reward: 73831
+Episode 212, Reward: 61279
+Episode 213, Reward: 67530
+Episode 214, Reward: 53936
+Episode 215, Reward: 67840
+Episode 216, Reward: 65481
+Episode 217, Reward: 47925
+Episode 218, Reward: 46126
+Episode 219, Reward: 46594
+Episode 220, Reward: 80858
+Frame: 1000
+State: [977.0485    485.          5.          1.        485.        873.8864
+   5.         -1.        485.        724.8863      5.         -1.
+ 578.5777    485.          5.          1.        485.        478.62985
+   5.         -1.        485.        225.20645     5.         -1.
+ 175.77052   485.          4.9999385   1.        485.          0.
+   3.         -1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 8
+Collision count: 8
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 977.0485204791844, 485.0, 5, 1
+Car: 485.0, 873.8864059089428, 5, -1
+Car: 485.0, 724.8862838132263, 5, -1
+Car: 578.5776863030137, 485.0, 5, 1
+Car: 485.0, 478.6298581433274, 5, -1
+Car: 485.0, 225.20645790094363, 5, -1
+Car: 175.77052017742636, 485.0, 4.999938690842203, 1
+Car: 485.0, 0, 3, -1
+
+Episode 221, Reward: 65993
+Episode 222, Reward: 69710
+Episode 223, Reward: 69485
+Episode 224, Reward: 69475
+Episode 225, Reward: 74410
+Episode 226, Reward: 68492
+Episode 227, Reward: 68527
+Episode 228, Reward: 68658
+Episode 229, Reward: 57221
+Episode 230, Reward: 75130
+Episode 231, Reward: 46924
+Episode 232, Reward: 45559
+Episode 233, Reward: 74612
+Episode 234, Reward: 58717
+Episode 235, Reward: 59160
+Episode 236, Reward: 53479
+Episode 237, Reward: 46004
+Episode 238, Reward: 44702
+Episode 239, Reward: 48082
+Episode 240, Reward: 68740
+Frame: 1000
+State: [574.9417  485.        5.        1.      485.      474.60342   5.
+  -1.      485.      226.70894   5.       -1.      178.10954 485.
+   5.        1.      485.        0.        3.       -1.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 5
+Collision count: 10
+Add car fail count: 0
+Flow: 0.017
+Cars:
+Car: 574.9417116707314, 485.0, 5, 1
+Car: 485.0, 474.60342125163606, 5, -1
+Car: 485.0, 226.7089364673402, 5, -1
+Car: 178.10955032577613, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 241, Reward: 57033
+Episode 242, Reward: 56145
+Episode 243, Reward: 62991
+Episode 244, Reward: 62320
+Episode 245, Reward: 61695
+Episode 246, Reward: 56932
+Episode 247, Reward: 62895
+Episode 248, Reward: 60566
+Episode 249, Reward: 45408
+Episode 250, Reward: 33657
+Episode 251, Reward: 38193
+Episode 252, Reward: 38926
+Episode 253, Reward: 40420
+Episode 254, Reward: 35279
+Episode 255, Reward: 36129
+Episode 256, Reward: 36220
+Episode 257, Reward: 35464
+Episode 258, Reward: 26109
+Episode 259, Reward: 34460
+Episode 260, Reward: 36595
+Frame: 1000
+State: [ 4.8500000e+02  7.2698199e+02  5.0000000e+00 -1.0000000e+00
+  5.7574664e+02  4.8500000e+02  5.0000000e+00  1.0000000e+00
+  4.8500000e+02  3.4705865e+02  5.4362285e-01 -1.0000000e+00
+  4.8500000e+02  2.2547878e+02  5.0000000e+00 -1.0000000e+00
+  1.6925642e+02  4.8500000e+02  2.9821799e+00  1.0000000e+00
+  4.8500000e+02  0.0000000e+00  3.0000000e+00 -1.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00]
+Car count: 6
+Collision count: 16
+Add car fail count: 0
+Flow: 0.01
+Cars:
+Car: 485.0, 726.9820117274228, 5, -1
+Car: 575.746644615836, 485.0, 5, 1
+Car: 485.0, 347.05864455139675, 0.5436228471151212, -1
+Car: 485.0, 225.47876767283455, 5, -1
+Car: 169.25642592044778, 485.0, 2.9821798569209035, 1
+Car: 485.0, 0, 3, -1
+
+Episode 261, Reward: 30511
+Episode 262, Reward: 35631
+Episode 263, Reward: 27138
+Episode 264, Reward: 33929
+Episode 265, Reward: 33545
+Episode 266, Reward: 37793
+Episode 267, Reward: 12885
+Episode 268, Reward: 40171
+Episode 269, Reward: 22970
+Episode 270, Reward: 17970
+Episode 271, Reward: 24021
+Episode 272, Reward: 22732
+Episode 273, Reward: 17021
+Episode 274, Reward: 23949
+Episode 275, Reward: 40082
+Episode 276, Reward: 44223
+Episode 277, Reward: 28178
+Episode 278, Reward: 13545
+Episode 279, Reward: 36593
+Episode 280, Reward: 25121
+Frame: 1000
+State: [485.      972.9795    5.       -1.      485.      668.726     5.
+  -1.      485.      478.07715   5.       -1.      485.      226.31747
+   5.       -1.      177.04622 485.        5.        1.      485.
+   0.        3.       -1.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 6
+Collision count: 20
+Add car fail count: 0
+Flow: 0.006
+Cars:
+Car: 485.0, 972.9794912701249, 5, -1
+Car: 485.0, 668.7260399467643, 5, -1
+Car: 485.0, 478.0771555422025, 5, -1
+Car: 485.0, 226.31746792672385, 5, -1
+Car: 177.0462205275796, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 281, Reward: 13621
+Episode 282, Reward: 24298
+Episode 283, Reward: 23426
+Episode 284, Reward: 28147
+Episode 285, Reward: 28191
+Episode 286, Reward: 21278
+Episode 287, Reward: 28871
+Episode 288, Reward: 26789
+Episode 289, Reward: 22263
+Episode 290, Reward: 22362
+Episode 291, Reward: 24045
+Episode 292, Reward: 42382
+Episode 293, Reward: 32491
+Episode 294, Reward: 21049
+Episode 295, Reward: 38621
+Episode 296, Reward: 27984
+Episode 297, Reward: 44790
+Episode 298, Reward: 24128
+Episode 299, Reward: 37482
+Episode 300, Reward: 20276
+Frame: 1000
+State: [768.85474   485.          5.          1.        327.6909    485.
+   4.2054806   1.        485.        372.07208     5.         -1.
+ 485.         58.229855    0.         -1.        121.26438   485.
+   3.1418166   1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 12
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 768.8547259603903, 485.0, 5, 1
+Car: 327.6908782122049, 485.0, 4.205480449872848, 1
+Car: 485.0, 372.0720682025084, 5, -1
+Car: 485.0, 58.22985400749682, 0, -1
+Car: 121.26438487496361, 485.0, 3.1418167235228522, 1
+Car: 485.0, 0, 3, -1
+
+Episode 301, Reward: 48483
+Episode 302, Reward: 51977
+Episode 303, Reward: 59795
+Episode 304, Reward: 56855
+Episode 305, Reward: 34833
+Episode 306, Reward: 42387
+Episode 307, Reward: 50952
+Episode 308, Reward: 40497
+Episode 309, Reward: 44388
+Episode 310, Reward: 35540
+Episode 311, Reward: 58169
+Episode 312, Reward: 40870
+Episode 313, Reward: 42052
+Episode 314, Reward: 45860
+Episode 315, Reward: 54005
+Episode 316, Reward: 71743
+Episode 317, Reward: 50680
+Episode 318, Reward: 46117
+Episode 319, Reward: 51970
+Episode 320, Reward: 51300
+Frame: 1000
+State: [485.       975.46277    5.        -1.       549.87006  485.
+   5.         1.       485.       465.09314    5.        -1.
+ 485.        57.737137   0.        -1.       179.20695  485.
+   5.         1.       485.         0.         3.        -1.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.      ]
+Car count: 6
+Collision count: 10
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 485.0, 975.4627432630843, 5, -1
+Car: 549.8700442845277, 485.0, 5, 1
+Car: 485.0, 465.09314776695044, 5, -1
+Car: 485.0, 57.73713731504369, 0, -1
+Car: 179.206956888835, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 321, Reward: 59182
+Episode 322, Reward: 53082
+Episode 323, Reward: 68449
+Episode 324, Reward: 41699
+Episode 325, Reward: 52901
+Episode 326, Reward: 61482
+Episode 327, Reward: 52939
+Episode 328, Reward: 49434
+Episode 329, Reward: 46710
+Episode 330, Reward: 45713
+Episode 331, Reward: 51459
+Episode 332, Reward: 56910
+Episode 333, Reward: 43378
+Episode 334, Reward: 53475
+Episode 335, Reward: 46411
+Episode 336, Reward: 52956
+Episode 337, Reward: 54094
+Episode 338, Reward: 51892
+Episode 339, Reward: 60962
+Episode 340, Reward: 53994
+Frame: 1000
+State: [485.      727.03      5.       -1.      571.2315  485.        5.
+   1.      485.      478.114     5.       -1.      485.      225.93138
+   5.       -1.       49.65027 485.        2.3691    1.      485.
+   0.        3.       -1.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 6
+Collision count: 12
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 485.0, 727.0299991541938, 5, -1
+Car: 571.2315164924839, 485.0, 5, 1
+Car: 485.0, 478.11401279837327, 5, -1
+Car: 485.0, 225.93138671408462, 5, -1
+Car: 49.65026672545643, 485.0, 2.3691000330147522, 1
+Car: 485.0, 0, 3, -1
+
+Episode 341, Reward: 54536
+Episode 342, Reward: 54023
+Episode 343, Reward: 60569
+Episode 344, Reward: 61591
+Episode 345, Reward: 54494
+Episode 346, Reward: 38101
+Episode 347, Reward: 51895
+Episode 348, Reward: 57663
+Episode 349, Reward: 54392
+Episode 350, Reward: 57420
+Episode 351, Reward: 50550
+Episode 352, Reward: 57108
+Episode 353, Reward: 63520
+Episode 354, Reward: 57499
+Episode 355, Reward: 69023
+Episode 356, Reward: 54877
+Episode 357, Reward: 56186
+Episode 358, Reward: 51398
+Episode 359, Reward: 64278
+Episode 360, Reward: 67016
+Frame: 1000
+State: [977.72833 485.        5.        1.      485.      726.57947   5.
+  -1.      368.32974 485.        0.        1.      485.      475.76245
+   5.       -1.      485.      226.5458    5.       -1.      179.18669
+ 485.        5.        1.      485.        0.        3.       -1.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 7
+Collision count: 8
+Add car fail count: 0
+Flow: 0.017
+Cars:
+Car: 977.728350868708, 485.0, 5, 1
+Car: 485.0, 726.5794825528486, 5, -1
+Car: 368.3297393722206, 485.0, 0, 1
+Car: 485.0, 475.76244876025646, 5, -1
+Car: 485.0, 226.54581439282745, 5, -1
+Car: 179.1866988804934, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 361, Reward: 63963
+Episode 362, Reward: 59151
+Episode 363, Reward: 64217
+Episode 364, Reward: 45388
+Episode 365, Reward: 45987
+Episode 366, Reward: 43531
+Episode 367, Reward: 44922
+Episode 368, Reward: 59148
+Episode 369, Reward: 53349
+Episode 370, Reward: 53809
+Episode 371, Reward: 50600
+Episode 372, Reward: 57062
+Episode 373, Reward: 43964
+Episode 374, Reward: 58158
+Episode 375, Reward: 50870
+Episode 376, Reward: 43638
+Episode 377, Reward: 59025
+Episode 378, Reward: 53709
+Episode 379, Reward: 72881
+Episode 380, Reward: 63323
+Frame: 1000
+State: [485.       724.1052     5.        -1.       579.4694   485.
+   5.         1.       485.       478.1916     5.        -1.
+ 485.       226.60645    5.        -1.        42.111767 485.
+   2.238566   1.       485.         0.         3.        -1.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.      ]
+Car count: 6
+Collision count: 10
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 485.0, 724.1052297741381, 5, -1
+Car: 579.469441868932, 485.0, 5, 1
+Car: 485.0, 478.1915821224458, 5, -1
+Car: 485.0, 226.60643789618905, 5, -1
+Car: 42.111768117975444, 485.0, 2.2385658362667926, 1
+Car: 485.0, 0, 3, -1
+
+Episode 381, Reward: 62205
+Episode 382, Reward: 72201
+Episode 383, Reward: 54188
+Episode 384, Reward: 57171
+Episode 385, Reward: 47281
+Episode 386, Reward: 58607
+Episode 387, Reward: 55085
+Episode 388, Reward: 49657
+Episode 389, Reward: 55590
+Episode 390, Reward: 56394
+Episode 391, Reward: 67905
+Episode 392, Reward: 45502
+Episode 393, Reward: 51321
+Episode 394, Reward: 55638
+Episode 395, Reward: 49436
+Episode 396, Reward: 64931
+Episode 397, Reward: 65365
+Episode 398, Reward: 62637
+Episode 399, Reward: 64349
+Episode 400, Reward: 61554
+Frame: 1000
+State: [485.        728.7854      5.         -1.        578.51483   485.
+   5.          1.        485.        478.62936     5.         -1.
+ 485.        224.5899      5.         -1.         48.96567   485.
+   2.3823843   1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 10
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 485.0, 728.7854011927863, 5, -1
+Car: 578.5148125846855, 485.0, 5, 1
+Car: 485.0, 478.6293621943806, 5, -1
+Car: 485.0, 224.589902291768, 5, -1
+Car: 48.96567204900761, 485.0, 2.382384332097942, 1
+Car: 485.0, 0, 3, -1
+
+Episode 401, Reward: 61940
+Episode 402, Reward: 64952
+Episode 403, Reward: 62223
+Episode 404, Reward: 60168
+Episode 405, Reward: 53927
+Episode 406, Reward: 47240
+Episode 407, Reward: 72038
+Episode 408, Reward: 68013
+Episode 409, Reward: 54155
+Episode 410, Reward: 54029
+Episode 411, Reward: 77326
+Episode 412, Reward: 55671
+Episode 413, Reward: 69092
+Episode 414, Reward: 62719
+Episode 415, Reward: 47368
+Episode 416, Reward: 55838
+Episode 417, Reward: 67817
+Episode 418, Reward: 60405
+Episode 419, Reward: 56416
+Episode 420, Reward: 56234
+Frame: 1000
+State: [978.0168  485.        5.        1.      229.51506 485.        5.
+   1.      176.66061 485.        5.        1.      485.        0.
+   3.       -1.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 4
+Collision count: 12
+Add car fail count: 2
+Flow: 0.014
+Cars:
+Car: 978.0167773515338, 485.0, 5, 1
+Car: 229.51506318287528, 485.0, 5, 1
+Car: 176.66060764404293, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 421, Reward: 43693
+Episode 422, Reward: 66023
+Episode 423, Reward: 58613
+Episode 424, Reward: 61511
+Episode 425, Reward: 61918
+Episode 426, Reward: 63908
+Episode 427, Reward: 72284
+Episode 428, Reward: 67098
+Episode 429, Reward: 59197
+Episode 430, Reward: 57200
+Episode 431, Reward: 63860
+Episode 432, Reward: 54076
+Episode 433, Reward: 56416
+Episode 434, Reward: 60714
+Episode 435, Reward: 60860
+Episode 436, Reward: 72241
+Episode 437, Reward: 70130
+Episode 438, Reward: 59555
+Episode 439, Reward: 57982
+Episode 440, Reward: 63250
+Frame: 1000
+State: [977.3237  485.        5.        1.      485.      915.49677   5.
+  -1.      485.      708.0848    5.       -1.      574.9293  485.
+   5.        1.      485.      356.82318   5.       -1.      485.
+ 165.34563   5.       -1.      176.18022 485.        5.        1.
+ 485.        0.        3.       -1.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 8
+Collision count: 10
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 977.3237030854754, 485.0, 5, 1
+Car: 485.0, 915.4967883626109, 5, -1
+Car: 485.0, 708.0847677094882, 5, -1
+Car: 574.9293181099956, 485.0, 5, 1
+Car: 485.0, 356.82318018950986, 5, -1
+Car: 485.0, 165.3456306930444, 5, -1
+Car: 176.18022686393584, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 441, Reward: 61885
+Episode 442, Reward: 60512
+Episode 443, Reward: 60844
+Episode 444, Reward: 68587
+Episode 445, Reward: 56890
+Episode 446, Reward: 59566
+Episode 447, Reward: 56184
+Episode 448, Reward: 59999
+Episode 449, Reward: 59890
+Episode 450, Reward: 60067
+Episode 451, Reward: 49992
+Episode 452, Reward: 59622
+Episode 453, Reward: 47348
+Episode 454, Reward: 65692
+Episode 455, Reward: 58330
+Episode 456, Reward: 58346
+Episode 457, Reward: 58846
+Episode 458, Reward: 47539
+Episode 459, Reward: 66070
+Episode 460, Reward: 66075
+Frame: 1000
+State: [652.3983    485.          5.          1.        485.        963.8989
+   5.         -1.        485.        588.8168      2.8612738  -1.
+ 574.94507   485.          5.          1.        485.        463.68036
+   5.         -1.        485.        210.47366     5.         -1.
+ 177.764     485.          5.          1.        485.          0.
+   3.         -1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 8
+Collision count: 4
+Add car fail count: 0
+Flow: 0.02
+Cars:
+Car: 652.398297972163, 485.0, 5, 1
+Car: 485.0, 963.8989456668486, 5, -1
+Car: 485.0, 588.8167825068473, 2.8612738145680994, -1
+Car: 574.9450547718316, 485.0, 5, 1
+Car: 485.0, 463.68034945600755, 5, -1
+Car: 485.0, 210.4736631713175, 5, -1
+Car: 177.76400346841356, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 461, Reward: 75119
+Episode 462, Reward: 70530
+Episode 463, Reward: 68885
+Episode 464, Reward: 68146
+Episode 465, Reward: 69656
+Episode 466, Reward: 65399
+Episode 467, Reward: 69470
+Episode 468, Reward: 65196
+Episode 469, Reward: 65599
+Episode 470, Reward: 68443
+Episode 471, Reward: 74507
+Episode 472, Reward: 68652
+Episode 473, Reward: 72062
+Episode 474, Reward: 78747
+Episode 475, Reward: 71616
+Episode 476, Reward: 72265
+Episode 477, Reward: 78706
+Episode 478, Reward: 62943
+Episode 479, Reward: 79123
+Episode 480, Reward: 57609
+Frame: 1000
+State: [977.5853    485.          5.          1.        485.        227.657
+   5.         -1.        130.86711   485.          4.1403155   1.
+ 485.          0.          3.         -1.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 4
+Collision count: 8
+Add car fail count: 0
+Flow: 0.02
+Cars:
+Car: 977.5853042121214, 485.0, 5, 1
+Car: 485.0, 227.65699267665673, 5, -1
+Car: 130.86710980052834, 485.0, 4.140315373792745, 1
+Car: 485.0, 0, 3, -1
+
+Episode 481, Reward: 72654
+Episode 482, Reward: 69127
+Episode 483, Reward: 69560
+Episode 484, Reward: 72938
+Episode 485, Reward: 70137
+Episode 486, Reward: 68760
+Episode 487, Reward: 69475
+Episode 488, Reward: 78941
+Episode 489, Reward: 78417
+Episode 490, Reward: 69399
+Episode 491, Reward: 75239
+Episode 492, Reward: 75350
+Episode 493, Reward: 68374
+Episode 494, Reward: 69313
+Episode 495, Reward: 68048
+Episode 496, Reward: 61974
+Episode 497, Reward: 68146
+Episode 498, Reward: 62621
+Episode 499, Reward: 68375
+Episode 500, Reward: 68305
+Frame: 1000
+State: [696.9063  485.        5.        1.      550.81445 485.        5.
+   1.      485.      227.54922   5.       -1.      177.82042 485.
+   5.        1.      485.        0.        3.       -1.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 5
+Collision count: 8
+Add car fail count: 1
+Flow: 0.018
+Cars:
+Car: 696.9063049393047, 485.0, 5, 1
+Car: 550.81444336901, 485.0, 5, 1
+Car: 485.0, 227.54923105759235, 5, -1
+Car: 177.82042546341506, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 501, Reward: 64601
+Episode 502, Reward: 67842
+Episode 503, Reward: 49502
+Episode 504, Reward: 56657
+Episode 505, Reward: 66047
+Episode 506, Reward: 61799
+Episode 507, Reward: 50611
+Episode 508, Reward: 69050
+Episode 509, Reward: 55475
+Episode 510, Reward: 65739
+Episode 511, Reward: 72826
+Episode 512, Reward: 61558
+Episode 513, Reward: 61276
+Episode 514, Reward: 64219
+Episode 515, Reward: 67526
+Episode 516, Reward: 62223
+Episode 517, Reward: 61928
+Episode 518, Reward: 57937
+Episode 519, Reward: 66000
+Episode 520, Reward: 59891
+Frame: 1000
+State: [485.        932.6468      5.         -1.        485.        719.80646
+   5.         -1.        418.27444   485.          0.          1.
+ 485.        455.65198     1.7725016  -1.        485.        228.68771
+   5.         -1.         71.76001   485.          3.2103004   1.
+ 485.          0.          3.         -1.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 7
+Collision count: 8
+Add car fail count: 0
+Flow: 0.017
+Cars:
+Car: 485.0, 932.6468080936943, 5, -1
+Car: 485.0, 719.8064379654695, 5, -1
+Car: 418.27443782163607, 485.0, 0, 1
+Car: 485.0, 455.65198835335036, 1.7725015721299666, -1
+Car: 485.0, 228.687711580921, 5, -1
+Car: 71.76001057743825, 485.0, 3.2103005163110776, 1
+Car: 485.0, 0, 3, -1
+
+Episode 521, Reward: 67317
+Episode 522, Reward: 64625
+Episode 523, Reward: 80492
+Episode 524, Reward: 70927
+Episode 525, Reward: 73550
+Episode 526, Reward: 52185
+Episode 527, Reward: 76170
+Episode 528, Reward: 60392
+Episode 529, Reward: 63665
+Episode 530, Reward: 74518
+Episode 531, Reward: 68463
+Episode 532, Reward: 76264
+Episode 533, Reward: 68815
+Episode 534, Reward: 73157
+Episode 535, Reward: 74072
+Episode 536, Reward: 63196
+Episode 537, Reward: 68400
+Episode 538, Reward: 74793
+Episode 539, Reward: 68939
+Episode 540, Reward: 68434
+Frame: 1000
+State: [977.3902  485.        5.        1.      485.      866.0871    5.
+  -1.      485.      726.6422    5.       -1.      577.99146 485.
+   5.        1.      485.      445.24426   5.       -1.      485.
+ 227.73257   5.       -1.      178.76308 485.        5.        1.
+ 485.        0.        3.       -1.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 8
+Collision count: 4
+Add car fail count: 0
+Flow: 0.02
+Cars:
+Car: 977.3901899145548, 485.0, 5, 1
+Car: 485.0, 866.0870960553632, 5, -1
+Car: 485.0, 726.6422423179386, 5, -1
+Car: 577.991458266119, 485.0, 5, 1
+Car: 485.0, 445.24427173356435, 5, -1
+Car: 485.0, 227.73257159835393, 5, -1
+Car: 178.76308377094722, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 541, Reward: 81470
+Episode 542, Reward: 68372
+Episode 543, Reward: 46847
+Episode 544, Reward: 52278
+Episode 545, Reward: 52295
+Episode 546, Reward: 52578
+Episode 547, Reward: 74473
+Episode 548, Reward: 68479
+Episode 549, Reward: 68605
+Episode 550, Reward: 67198
+Episode 551, Reward: 63346
+Episode 552, Reward: 65723
+Episode 553, Reward: 68469
+Episode 554, Reward: 67977
+Episode 555, Reward: 63156
+Episode 556, Reward: 70511
+Episode 557, Reward: 75311
+Episode 558, Reward: 70621
+Episode 559, Reward: 67705
+Episode 560, Reward: 58491
+Frame: 1000
+State: [485.        707.12756     5.         -1.        575.6149    485.
+   5.          1.        485.        477.3551      5.         -1.
+ 485.        224.14334     5.         -1.        167.05402   485.
+   3.6363156   1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 12
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 485.0, 707.1275570069266, 5, -1
+Car: 575.6149422842694, 485.0, 5, 1
+Car: 485.0, 477.35509206629513, 5, -1
+Car: 485.0, 224.14333496861576, 5, -1
+Car: 167.05401996082176, 485.0, 3.6363156441841626, 1
+Car: 485.0, 0, 3, -1
+
+Episode 561, Reward: 58560
+Episode 562, Reward: 73970
+Episode 563, Reward: 63143
+Episode 564, Reward: 73118
+Episode 565, Reward: 70740
+Episode 566, Reward: 59029
+Episode 567, Reward: 60245
+Episode 568, Reward: 75258
+Episode 569, Reward: 74597
+Episode 570, Reward: 59596
+Episode 571, Reward: 63915
+Episode 572, Reward: 74601
+Episode 573, Reward: 59638
+Episode 574, Reward: 74865
+Episode 575, Reward: 58179
+Episode 576, Reward: 69019
+Episode 577, Reward: 73344
+Episode 578, Reward: 70553
+Episode 579, Reward: 73441
+Episode 580, Reward: 67462
+Frame: 1000
+State: [975.92883   485.          5.          1.        485.        760.7529
+   5.         -1.        485.        727.0761      5.         -1.
+ 577.1423    485.          5.          1.        485.        473.47656
+   5.         -1.        485.        226.08444     5.         -1.
+ 177.11153   485.          4.9577794   1.        485.          0.
+   3.         -1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 8
+Collision count: 6
+Add car fail count: 0
+Flow: 0.018
+Cars:
+Car: 975.9288459034744, 485.0, 5, 1
+Car: 485.0, 760.7529289076139, 5, -1
+Car: 485.0, 727.0760959268142, 5, -1
+Car: 577.1422754590951, 485.0, 5, 1
+Car: 485.0, 473.4765473720373, 5, -1
+Car: 485.0, 226.08444030632796, 5, -1
+Car: 177.11152830999575, 485.0, 4.957779560754005, 1
+Car: 485.0, 0, 3, -1
+
+Episode 581, Reward: 75045
+Episode 582, Reward: 64638
+Episode 583, Reward: 70698
+Episode 584, Reward: 69751
+Episode 585, Reward: 51467
+Episode 586, Reward: 63877
+Episode 587, Reward: 62305
+Episode 588, Reward: 74955
+Episode 589, Reward: 70062
+Episode 590, Reward: 74731
+Episode 591, Reward: 67041
+Episode 592, Reward: 64256
+The best reward is updated: 82482 -> 84614, Saving models...
+Episode 593, Reward: 84614
+Episode 594, Reward: 82196
+Episode 595, Reward: 82197
+Episode 596, Reward: 81913
+Episode 597, Reward: 82204
+The best reward is updated: 84614 -> 84893, Saving models...
+Episode 598, Reward: 84893
+The best reward is updated: 84893 -> 86071, Saving models...
+Episode 599, Reward: 86071
+Episode 600, Reward: 85269
+Frame: 1000
+State: [485.        728.82465     5.         -1.        576.78516   485.
+   5.          1.        485.        471.7904      5.         -1.
+ 485.        225.40637     5.         -1.        153.56714   485.
+   1.7549759   1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 4
+Add car fail count: 0
+Flow: 0.022
+Cars:
+Car: 485.0, 728.8246292180968, 5, -1
+Car: 576.7851385525655, 485.0, 5, 1
+Car: 485.0, 471.7903974231243, 5, -1
+Car: 485.0, 225.40637424672175, 5, -1
+Car: 153.56713163188465, 485.0, 1.754975866358707, 1
+Car: 485.0, 0, 3, -1
+
+Episode 601, Reward: 82723
+Episode 602, Reward: 85056
+Episode 603, Reward: 82861
+Episode 604, Reward: 82453
+Episode 605, Reward: 82575
+Episode 606, Reward: 82195
+Episode 607, Reward: 85617
+Episode 608, Reward: 83558
+Episode 609, Reward: 69067
+Episode 610, Reward: 59880
+Episode 611, Reward: 59647
+Episode 612, Reward: 60743
+Episode 613, Reward: 57686
+Episode 614, Reward: 55985
+Episode 615, Reward: 62353
+Episode 616, Reward: 61813
+Episode 617, Reward: 65891
+Episode 618, Reward: 61847
+Episode 619, Reward: 58796
+Episode 620, Reward: 61612
+Frame: 1000
+State: [ 9.0755072e+02  4.8500000e+02  5.0000000e+00  1.0000000e+00
+  4.8500000e+02  9.1614813e+02  5.0000000e+00 -1.0000000e+00
+  4.8500000e+02  5.6878082e+02  0.0000000e+00 -1.0000000e+00
+  5.6101489e+02  4.8500000e+02  5.0000000e+00  1.0000000e+00
+  4.8500000e+02  3.6652652e+02  4.7080511e-01 -1.0000000e+00
+  4.8500000e+02  9.6844032e+01  2.5344379e+00 -1.0000000e+00
+  1.4853237e+01  4.8500000e+02  0.0000000e+00  1.0000000e+00
+  4.8500000e+02  0.0000000e+00  3.0000000e+00 -1.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00]
+Car count: 8
+Collision count: 10
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 907.5507497114501, 485.0, 5, 1
+Car: 485.0, 916.1481517561156, 5, -1
+Car: 485.0, 568.7808374299125, 0, -1
+Car: 561.0148956732512, 485.0, 5, 1
+Car: 485.0, 366.5265110586658, 0.47080511556929683, -1
+Car: 485.0, 96.84403126846375, 2.5344378383225585, -1
+Car: 14.853237323706926, 485.0, 0, 1
+Car: 485.0, 0, 3, -1
+
+Episode 621, Reward: 61523
+Episode 622, Reward: 62568
+Episode 623, Reward: 59524
+Episode 624, Reward: 59542
+Episode 625, Reward: 59683
+Episode 626, Reward: 60910
+Episode 627, Reward: 62231
+Episode 628, Reward: 55889
+Episode 629, Reward: 56369
+Episode 630, Reward: 63799
+Episode 631, Reward: 61964
+Episode 632, Reward: 61971
+Episode 633, Reward: 61667
+Episode 634, Reward: 62009
+Episode 635, Reward: 66193
+Episode 636, Reward: 69864
+Episode 637, Reward: 64026
+Episode 638, Reward: 67016
+Episode 639, Reward: 54790
+Episode 640, Reward: 65451
+Frame: 1000
+State: [485.        672.48914     5.         -1.        575.18256   485.
+   5.          1.        485.        477.09558     5.         -1.
+ 485.        228.37592     5.         -1.        108.81856   485.
+   4.2242293   1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 12
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 485.0, 672.4891178767235, 5, -1
+Car: 575.1825342023167, 485.0, 5, 1
+Car: 485.0, 477.0955708426263, 5, -1
+Car: 485.0, 228.3759140137252, 5, -1
+Car: 108.8185612515608, 485.0, 4.224229158987946, 1
+Car: 485.0, 0, 3, -1
+
+Episode 641, Reward: 56080
+Episode 642, Reward: 52300
+Episode 643, Reward: 60043
+Episode 644, Reward: 61143
+Episode 645, Reward: 67470
+Episode 646, Reward: 59796
+Episode 647, Reward: 71604
+Episode 648, Reward: 64379
+Episode 649, Reward: 74142
+Episode 650, Reward: 75143
+Episode 651, Reward: 67300
+Episode 652, Reward: 68415
+Episode 653, Reward: 59887
+Episode 654, Reward: 60845
+Episode 655, Reward: 57522
+Episode 656, Reward: 72032
+Episode 657, Reward: 62581
+Episode 658, Reward: 63349
+Episode 659, Reward: 63244
+Episode 660, Reward: 71344
+Frame: 1000
+State: [485.      935.2242    5.       -1.      337.4705  485.        5.
+   1.      485.      415.8951    5.       -1.      485.      162.68964
+   5.       -1.      176.85475 485.        5.        1.      485.
+   0.        3.       -1.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 6
+Collision count: 8
+Add car fail count: 0
+Flow: 0.018
+Cars:
+Car: 485.0, 935.2241608079144, 5, -1
+Car: 337.4704998823257, 485.0, 5, 1
+Car: 485.0, 415.89511170787637, 5, -1
+Car: 485.0, 162.68964038905685, 5, -1
+Car: 176.85475692974094, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 661, Reward: 66291
+Episode 662, Reward: 61289
+Episode 663, Reward: 58826
+Episode 664, Reward: 61825
+Episode 665, Reward: 67079
+Episode 666, Reward: 61188
+Episode 667, Reward: 60278
+Episode 668, Reward: 51550
+Episode 669, Reward: 50446
+Episode 670, Reward: 57878
+Episode 671, Reward: 61485
+Episode 672, Reward: 66919
+Episode 673, Reward: 51283
+Episode 674, Reward: 61585
+Episode 675, Reward: 51875
+Episode 676, Reward: 62608
+Episode 677, Reward: 61450
+Episode 678, Reward: 61328
+Episode 679, Reward: 62045
+Episode 680, Reward: 46203
+Frame: 1000
+State: [485.      751.6207    5.       -1.      485.      184.73863   5.
+  -1.      179.18904 485.        5.        1.      485.        0.
+   3.       -1.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 4
+Collision count: 12
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 485.0, 751.6207392655394, 5, -1
+Car: 485.0, 184.73863604607763, 5, -1
+Car: 179.1890374467289, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 681, Reward: 58754
+Episode 682, Reward: 60846
+Episode 683, Reward: 60335
+Episode 684, Reward: 52015
+Episode 685, Reward: 60612
+Episode 686, Reward: 59778
+Episode 687, Reward: 51656
+Episode 688, Reward: 59870
+Episode 689, Reward: 51245
+Episode 690, Reward: 58151
+Episode 691, Reward: 62568
+Episode 692, Reward: 62605
+Episode 693, Reward: 60490
+Episode 694, Reward: 60687
+Episode 695, Reward: 62366
+Episode 696, Reward: 64089
+Episode 697, Reward: 50135
+Episode 698, Reward: 58153
+Episode 699, Reward: 50370
+Episode 700, Reward: 48422
+Frame: 1000
+State: [485.        887.9011      5.         -1.        577.7363    485.
+   5.          1.        485.        478.33414     5.         -1.
+ 485.        227.9843      5.         -1.         73.995155  485.
+   1.7405117   1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 12
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 485.0, 887.9011237958282, 5, -1
+Car: 577.7363472244217, 485.0, 5, 1
+Car: 485.0, 478.33414824119393, 5, -1
+Car: 485.0, 227.9842949541115, 5, -1
+Car: 73.99515368397233, 485.0, 1.7405116647376357, 1
+Car: 485.0, 0, 3, -1
+
+Episode 701, Reward: 52598
+Episode 702, Reward: 59413
+Episode 703, Reward: 59311
+Episode 704, Reward: 59353
+Episode 705, Reward: 59449
+Episode 706, Reward: 59401
+Episode 707, Reward: 59410
+Episode 708, Reward: 59383
+Episode 709, Reward: 59461
+Episode 710, Reward: 59464
+Episode 711, Reward: 59347
+Episode 712, Reward: 59458
+Episode 713, Reward: 59443
+Episode 714, Reward: 59473
+Episode 715, Reward: 59377
+Episode 716, Reward: 59422
+Episode 717, Reward: 59398
+Episode 718, Reward: 59485
+Episode 719, Reward: 64182
+Episode 720, Reward: 63988
+Frame: 1000
+State: [ 9.7788910e+02  4.8500000e+02  5.0000000e+00  1.0000000e+00
+  4.8500000e+02  8.5484357e+02  5.0000000e+00 -1.0000000e+00
+  4.8500000e+02  6.8277441e+02  1.3690518e-01 -1.0000000e+00
+  5.7775299e+02  4.8500000e+02  5.0000000e+00  1.0000000e+00
+  4.8500000e+02  4.0238535e+02  1.2680988e+00 -1.0000000e+00
+  4.8500000e+02  1.7657553e+02  3.3794105e+00 -1.0000000e+00
+  1.3631406e+02  4.8500000e+02  3.9758811e+00  1.0000000e+00
+  4.8500000e+02  0.0000000e+00  3.0000000e+00 -1.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00]
+Car count: 8
+Collision count: 10
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 977.8890837717676, 485.0, 5, 1
+Car: 485.0, 854.8435817132228, 5, -1
+Car: 485.0, 682.7744065015094, 0.1369051835107093, -1
+Car: 577.7530026023051, 485.0, 5, 1
+Car: 485.0, 402.3853315572357, 1.2680987768372076, -1
+Car: 485.0, 176.57552933255369, 3.3794105362145364, -1
+Car: 136.31405658960927, 485.0, 3.975881121082167, 1
+Car: 485.0, 0, 3, -1
+
+Episode 721, Reward: 63108
+Episode 722, Reward: 61039
+Episode 723, Reward: 59857
+Episode 724, Reward: 64021
+Episode 725, Reward: 68027
+Episode 726, Reward: 74377
+Episode 727, Reward: 68377
+Episode 728, Reward: 74690
+Episode 729, Reward: 59389
+Episode 730, Reward: 64590
+Episode 731, Reward: 69668
+Episode 732, Reward: 70240
+Episode 733, Reward: 61946
+Episode 734, Reward: 49944
+Episode 735, Reward: 70390
+Episode 736, Reward: 50575
+Episode 737, Reward: 54952
+Episode 738, Reward: 65403
+Episode 739, Reward: 65360
+Episode 740, Reward: 67905
+Frame: 1000
+State: [485.      756.04083   4.42181  -1.      311.9322  485.        5.
+   1.      485.      436.2948    5.       -1.      485.      227.34251
+   5.       -1.      175.85812 485.        5.        1.      485.
+   0.        3.       -1.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 6
+Collision count: 12
+Add car fail count: 1
+Flow: 0.013
+Cars:
+Car: 485.0, 756.0408583867847, 4.421810311422833, -1
+Car: 311.9321885715748, 485.0, 5, 1
+Car: 485.0, 436.2947847099664, 5, -1
+Car: 485.0, 227.3425128998344, 5, -1
+Car: 175.8581162239978, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 741, Reward: 49506
+Episode 742, Reward: 42361
+Episode 743, Reward: 52924
+Episode 744, Reward: 50533
+Episode 745, Reward: 64261
+Episode 746, Reward: 59286
+Episode 747, Reward: 49427
+Episode 748, Reward: 39350
+Episode 749, Reward: 47605
+Episode 750, Reward: 59435
+Episode 751, Reward: 38326
+Episode 752, Reward: 47159
+Episode 753, Reward: 29488
+Episode 754, Reward: 43127
+Episode 755, Reward: 42575
+Episode 756, Reward: 62722
+Episode 757, Reward: 40026
+Episode 758, Reward: 41659
+Episode 759, Reward: 33785
+Episode 760, Reward: 53635
+Frame: 1000
+State: [813.34827 485.        5.        1.      485.      918.9402    0.
+  -1.      445.6006  485.        0.        1.      485.      216.4634
+   5.       -1.      176.64005 485.        5.        1.      485.
+   0.        3.       -1.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 6
+Collision count: 10
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 813.348239520455, 485.0, 5, 1
+Car: 485.0, 918.9401899402243, 0, -1
+Car: 445.60057371194534, 485.0, 0, 1
+Car: 485.0, 216.46339705779252, 5, -1
+Car: 176.64004939567064, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 761, Reward: 60321
+Episode 762, Reward: 26636
+Episode 763, Reward: 62121
+Episode 764, Reward: 55420
+Episode 765, Reward: 56973
+Episode 766, Reward: 51088
+Episode 767, Reward: 56428
+Episode 768, Reward: 53160
+Episode 769, Reward: 33838
+Episode 770, Reward: 26764
+Episode 771, Reward: 42114
+Episode 772, Reward: 26780
+Episode 773, Reward: 52365
+Episode 774, Reward: 33334
+Episode 775, Reward: 35947
+Episode 776, Reward: 45455
+Episode 777, Reward: 50757
+Episode 778, Reward: 44355
+Episode 779, Reward: 35863
+Episode 780, Reward: 42820
+Frame: 1000
+State: [679.15497 485.        5.        1.      485.      624.80255   0.
+  -1.      420.39023 485.        0.        1.      485.      229.31123
+   5.       -1.      157.82964 485.        5.        1.      485.
+   0.        3.       -1.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 6
+Collision count: 10
+Add car fail count: 0
+Flow: 0.016
+Cars:
+Car: 679.1549933891445, 485.0, 5, 1
+Car: 485.0, 624.802521449986, 0, -1
+Car: 420.3902364468994, 485.0, 0, 1
+Car: 485.0, 229.3112400751914, 5, -1
+Car: 157.8296341586476, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 781, Reward: 56530
+Episode 782, Reward: 47133
+Episode 783, Reward: 35649
+Episode 784, Reward: 51841
+Episode 785, Reward: 39212
+Episode 786, Reward: 50270
+Episode 787, Reward: 27913
+Episode 788, Reward: 44608
+Episode 789, Reward: 43564
+Episode 790, Reward: 35437
+Episode 791, Reward: 35313
+Episode 792, Reward: 36572
+Episode 793, Reward: 46614
+Episode 794, Reward: 39802
+Episode 795, Reward: 41230
+Episode 796, Reward: 46236
+Episode 797, Reward: 42229
+Episode 798, Reward: 30143
+Episode 799, Reward: 45829
+Episode 800, Reward: 47085
+Frame: 1000
+State: [485.        596.54205     0.         -1.        577.9876    485.
+   5.          1.        485.        474.86816     5.         -1.
+ 485.        227.23529     5.         -1.        176.74413   485.
+   4.9883347   1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 14
+Add car fail count: 2
+Flow: 0.01
+Cars:
+Car: 485.0, 596.5420363683296, 0, -1
+Car: 577.9875997649617, 485.0, 5, 1
+Car: 485.0, 474.868162174737, 5, -1
+Car: 485.0, 227.2352947976355, 5, -1
+Car: 176.74412917380306, 485.0, 4.988334438997662, 1
+Car: 485.0, 0, 3, -1
+
+Episode 801, Reward: 27355
+Episode 802, Reward: 44222
+Episode 803, Reward: 31961
+Episode 804, Reward: 7892
+Episode 805, Reward: 17416
+Episode 806, Reward: 13802
+Episode 807, Reward: 17403
+Episode 808, Reward: 38429
+Episode 809, Reward: 29917
+Episode 810, Reward: 9110
+Episode 811, Reward: 18641
+Episode 812, Reward: 24910
+Episode 813, Reward: 13778
+Episode 814, Reward: 24794
+Episode 815, Reward: 30069
+Episode 816, Reward: 10912
+Episode 817, Reward: 7400
+Episode 818, Reward: 4369
+Episode 819, Reward: 2165
+Episode 820, Reward: -5838
+Frame: 1000
+State: [485.      673.0742    5.       -1.      977.763   485.        5.
+   1.      301.86597 485.        5.        1.      485.      479.3126
+   5.       -1.      485.      225.60887   5.       -1.      180.26363
+ 485.        5.        1.      485.        0.        3.       -1.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 7
+Collision count: 18
+Add car fail count: 1
+Flow: 0.006
+Cars:
+Car: 485.0, 673.074216364067, 5, -1
+Car: 977.7630221267033, 485.0, 5, 1
+Car: 301.865968092964, 485.0, 5, 1
+Car: 485.0, 479.31258274891985, 5, -1
+Car: 485.0, 225.60887773925424, 5, -1
+Car: 180.2636316177868, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 821, Reward: 18198
+Episode 822, Reward: 11919
+Episode 823, Reward: 18458
+Episode 824, Reward: 13969
+Episode 825, Reward: 27459
+Episode 826, Reward: 28519
+Episode 827, Reward: 38434
+Episode 828, Reward: 16565
+Episode 829, Reward: 27988
+Episode 830, Reward: 15135
+Episode 831, Reward: 28833
+Episode 832, Reward: 33743
+Episode 833, Reward: 28622
+Episode 834, Reward: 49415
+Episode 835, Reward: 58539
+Episode 836, Reward: 35527
+Episode 837, Reward: 66921
+Episode 838, Reward: 64562
+Episode 839, Reward: 58613
+Episode 840, Reward: 66996
+Frame: 1000
+State: [485.      951.4281    5.       -1.      509.32617 485.        5.
+   1.      485.       83.78001   0.       -1.      178.45013 485.
+   5.        1.      485.        0.        3.       -1.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 5
+Collision count: 16
+Add car fail count: 0
+Flow: 0.011
+Cars:
+Car: 485.0, 951.4281062967914, 5, -1
+Car: 509.3261843102852, 485.0, 5, 1
+Car: 485.0, 83.78000646223539, 0, -1
+Car: 178.45013094125622, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 841, Reward: 40093
+Episode 842, Reward: 39606
+Episode 843, Reward: 42952
+Episode 844, Reward: 51510
+Episode 845, Reward: 48791
+Episode 846, Reward: 47808
+Episode 847, Reward: 38757
+Episode 848, Reward: 62735
+Episode 849, Reward: 57868
+Episode 850, Reward: 58371
+Episode 851, Reward: 52875
+Episode 852, Reward: 62374
+Episode 853, Reward: 38920
+Episode 854, Reward: 29455
+Episode 855, Reward: 29921
+Episode 856, Reward: 31801
+Episode 857, Reward: 21767
+Episode 858, Reward: 23980
+Episode 859, Reward: 16660
+Episode 860, Reward: 32967
+Frame: 1000
+State: [896.1767    485.          5.          1.        430.76678   485.
+   1.3235377   1.        485.        392.33282     0.         -1.
+ 485.        226.93314     5.         -1.         76.34881   485.
+   3.202114    1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 18
+Add car fail count: 1
+Flow: 0.007
+Cars:
+Car: 896.1766929507156, 485.0, 5, 1
+Car: 430.7667991988238, 485.0, 1.3235376897945912, 1
+Car: 485.0, 392.33281400763576, 0, -1
+Car: 485.0, 226.93313883984746, 5, -1
+Car: 76.34881169686838, 485.0, 3.202114033525536, 1
+Car: 485.0, 0, 3, -1
+
+Episode 861, Reward: 27509
+Episode 862, Reward: 27044
+Episode 863, Reward: 49316
+Episode 864, Reward: 40819
+Episode 865, Reward: 32602
+Episode 866, Reward: 49901
+Episode 867, Reward: 32846
+Episode 868, Reward: 54037
+Episode 869, Reward: 57790
+Episode 870, Reward: 34597
+Episode 871, Reward: 27513
+Episode 872, Reward: 52512
+Episode 873, Reward: 40807
+Episode 874, Reward: 52585
+Episode 875, Reward: 71841
+Episode 876, Reward: 51542
+Episode 877, Reward: 66872
+Episode 878, Reward: 21187
+Episode 879, Reward: 30048
+Episode 880, Reward: 27212
+Frame: 1000
+State: [ 9.7568243e+02  4.8500000e+02  5.0000000e+00  1.0000000e+00
+  4.8500000e+02  5.1464142e+02  1.1968151e+00 -1.0000000e+00
+  4.3272052e+02  4.8500000e+02  1.4156206e+00  1.0000000e+00
+  4.8500000e+02  1.2375602e+02  4.3628616e+00 -1.0000000e+00
+  1.4228574e+02  4.8500000e+02  6.5860093e-01  1.0000000e+00
+  4.8500000e+02  0.0000000e+00  3.0000000e+00 -1.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00
+  0.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00]
+Car count: 6
+Collision count: 16
+Add car fail count: 2
+Flow: 0.008
+Cars:
+Car: 975.6824157513497, 485.0, 5, 1
+Car: 485.0, 514.6413909970141, 1.1968150890359321, -1
+Car: 432.7205350378051, 485.0, 1.4156205503084565, 1
+Car: 485.0, 123.75602306085442, 4.362861671065194, -1
+Car: 142.28572946060766, 485.0, 0.6586009229775958, 1
+Car: 485.0, 0, 3, -1
+
+Episode 881, Reward: 28792
+Episode 882, Reward: 37673
+Episode 883, Reward: 47240
+Episode 884, Reward: 50166
+Episode 885, Reward: 37502
+Episode 886, Reward: 47512
+Episode 887, Reward: 39002
+Episode 888, Reward: 37204
+Episode 889, Reward: 55752
+Episode 890, Reward: 40073
+Episode 891, Reward: 30767
+Episode 892, Reward: 44221
+Episode 893, Reward: 52016
+Episode 894, Reward: 38045
+Episode 895, Reward: 24657
+Episode 896, Reward: 45386
+Episode 897, Reward: 24940
+Episode 898, Reward: 28949
+Episode 899, Reward: 40328
+Episode 900, Reward: 37135
+Frame: 1000
+State: [690.0786    485.          5.          1.        485.        557.17957
+   0.         -1.        499.85742   485.          1.9354519   1.
+ 485.        228.77028     5.         -1.        115.91401   485.
+   3.8783953   1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 18
+Add car fail count: 0
+Flow: 0.008
+Cars:
+Car: 690.0786308650914, 485.0, 5, 1
+Car: 485.0, 557.1795712085437, 0, -1
+Car: 499.8574096225025, 485.0, 1.9354518158861784, 1
+Car: 485.0, 228.77028299733269, 5, -1
+Car: 115.91401250694028, 485.0, 3.8783953499976405, 1
+Car: 485.0, 0, 3, -1
+
+Episode 901, Reward: 32846
+Episode 902, Reward: 26172
+Episode 903, Reward: 37307
+Episode 904, Reward: 34904
+Episode 905, Reward: 34847
+Episode 906, Reward: 43975
+Episode 907, Reward: 40590
+Episode 908, Reward: 25958
+Episode 909, Reward: 46729
+Episode 910, Reward: 77431
+Episode 911, Reward: 47503
+Episode 912, Reward: 44445
+Episode 913, Reward: 53303
+Episode 914, Reward: 51465
+Episode 915, Reward: 47282
+Episode 916, Reward: 67144
+Episode 917, Reward: 22150
+Episode 918, Reward: 25315
+Episode 919, Reward: 26845
+Episode 920, Reward: 45766
+Frame: 1000
+State: [916.5536   485.         5.         1.       253.92946  485.
+   0.         1.       485.       324.2212     0.        -1.
+ 485.       223.7424     5.        -1.        90.88638  485.
+   2.724983   1.       485.         0.         3.        -1.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.      ]
+Car count: 6
+Collision count: 12
+Add car fail count: 0
+Flow: 0.014
+Cars:
+Car: 916.5535990995861, 485.0, 5, 1
+Car: 253.92945500886685, 485.0, 0, 1
+Car: 485.0, 324.22117803497247, 0, -1
+Car: 485.0, 223.7423938622578, 5, -1
+Car: 90.88638499088324, 485.0, 2.7249829411536464, 1
+Car: 485.0, 0, 3, -1
+
+Episode 921, Reward: 49671
+Episode 922, Reward: 32014
+Episode 923, Reward: 48227
+Episode 924, Reward: 28668
+Episode 925, Reward: 45077
+Episode 926, Reward: 31702
+Episode 927, Reward: 33317
+Episode 928, Reward: 45565
+Episode 929, Reward: 47828
+Episode 930, Reward: 59072
+Episode 931, Reward: 32278
+Episode 932, Reward: 30537
+Episode 933, Reward: 18776
+Episode 934, Reward: 15715
+Episode 935, Reward: 17854
+Episode 936, Reward: 29647
+Episode 937, Reward: 15608
+Episode 938, Reward: 43906
+Episode 939, Reward: 39124
+Episode 940, Reward: 35678
+Frame: 1000
+State: [240.96971   485.          3.4254775   1.        485.        476.55585
+   5.         -1.        485.         74.04783     1.4428594  -1.
+ 178.33946   485.          5.          1.        485.          0.
+   3.         -1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 5
+Collision count: 18
+Add car fail count: 0
+Flow: 0.009
+Cars:
+Car: 240.96971060124955, 485.0, 3.425477467531537, 1
+Car: 485.0, 476.5558536056346, 5, -1
+Car: 485.0, 74.04783055276933, 1.4428593779362218, -1
+Car: 178.3394648752651, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 941, Reward: 28565
+Episode 942, Reward: 33464
+Episode 943, Reward: 15064
+Episode 944, Reward: 17487
+Episode 945, Reward: 32241
+Episode 946, Reward: 48262
+Episode 947, Reward: 54358
+Episode 948, Reward: 27675
+Episode 949, Reward: 30955
+Episode 950, Reward: 30865
+Episode 951, Reward: 46600
+Episode 952, Reward: 43961
+Episode 953, Reward: 35399
+Episode 954, Reward: 15180
+Episode 955, Reward: 20527
+Episode 956, Reward: 37552
+Episode 957, Reward: 48607
+Episode 958, Reward: 58980
+Episode 959, Reward: 53954
+Episode 960, Reward: 41939
+Frame: 1000
+State: [485.        659.6841      5.         -1.        485.        412.53107
+   5.         -1.        485.         80.30115     1.8695186  -1.
+ 176.13618   485.          5.          1.        485.          0.
+   3.         -1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 5
+Collision count: 16
+Add car fail count: 0
+Flow: 0.011
+Cars:
+Car: 485.0, 659.6840595605472, 5, -1
+Car: 485.0, 412.5310805990987, 5, -1
+Car: 485.0, 80.30114647252653, 1.8695186230563057, -1
+Car: 176.13618449539263, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 961, Reward: 30131
+Episode 962, Reward: 48964
+Episode 963, Reward: 28536
+Episode 964, Reward: 37976
+Episode 965, Reward: 1269
+Episode 966, Reward: 25932
+Episode 967, Reward: 7800
+Episode 968, Reward: 26426
+Episode 969, Reward: 39950
+Episode 970, Reward: 43601
+Episode 971, Reward: 40711
+Episode 972, Reward: 28304
+Episode 973, Reward: 28194
+Episode 974, Reward: 40271
+Episode 975, Reward: 52991
+Episode 976, Reward: 15404
+Episode 977, Reward: 15456
+Episode 978, Reward: 19358
+Episode 979, Reward: 27075
+Episode 980, Reward: 19500
+Frame: 1000
+State: [485.       917.0237     4.334142  -1.       913.51196  485.
+   5.         1.       485.       794.92975    5.        -1.
+ 485.       650.5021     5.        -1.       576.97363  485.
+   5.         1.       485.       439.46545    5.        -1.
+ 485.       229.2386     5.        -1.       106.37317  485.
+   4.162131   1.       485.         0.         3.        -1.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.      ]
+Car count: 9
+Collision count: 16
+Add car fail count: 0
+Flow: 0.007
+Cars:
+Car: 485.0, 917.0236647429592, 4.334141980683049, -1
+Car: 913.5119498494964, 485.0, 5, 1
+Car: 485.0, 794.9297450659384, 5, -1
+Car: 485.0, 650.5020583797351, 5, -1
+Car: 576.9736502182452, 485.0, 5, 1
+Car: 485.0, 439.4654535444964, 5, -1
+Car: 485.0, 229.23859554731763, 5, -1
+Car: 106.37316945426582, 485.0, 4.162130840414732, 1
+Car: 485.0, 0, 3, -1
+
+Episode 981, Reward: 29938
+Episode 982, Reward: 27099
+Episode 983, Reward: 32686
+Episode 984, Reward: 31999
+Episode 985, Reward: 24108
+Episode 986, Reward: 45194
+Episode 987, Reward: 37749
+Episode 988, Reward: 40032
+Episode 989, Reward: 35262
+Episode 990, Reward: 12914
+Episode 991, Reward: 23821
+Episode 992, Reward: 9082
+Episode 993, Reward: 8790
+Episode 994, Reward: 15954
+Episode 995, Reward: 25126
+Episode 996, Reward: 22634
+Episode 997, Reward: 26919
+Episode 998, Reward: 11484
+Episode 999, Reward: 15264
+Episode 1000, Reward: 14612
+Frame: 1000
+State: [485.        474.79993     4.1531887  -1.        575.7741    485.
+   5.          1.        485.        262.7174      3.915492   -1.
+ 485.         58.661648    0.         -1.         15.326159  485.
+   0.          1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 18
+Add car fail count: 1
+Flow: 0.007
+Cars:
+Car: 485.0, 474.799927561044, 4.153188716842194, -1
+Car: 575.7740818515875, 485.0, 5, 1
+Car: 485.0, 262.7174017070297, 3.9154920305589216, -1
+Car: 485.0, 58.66164660795527, 0, -1
+Car: 15.326158392512326, 485.0, 0, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1001, Reward: 20579
+Episode 1002, Reward: 25569
+Episode 1003, Reward: 20532
+Episode 1004, Reward: 15131
+Episode 1005, Reward: 22771
+Episode 1006, Reward: 37277
+Episode 1007, Reward: 24847
+Episode 1008, Reward: 27013
+Episode 1009, Reward: 17266
+Episode 1010, Reward: 23915
+Episode 1011, Reward: 33528
+Episode 1012, Reward: 20877
+Episode 1013, Reward: 21299
+Episode 1014, Reward: 19032
+Episode 1015, Reward: 30585
+Episode 1016, Reward: 33207
+Episode 1017, Reward: 20971
+Episode 1018, Reward: 29738
+Episode 1019, Reward: 35082
+Episode 1020, Reward: 20573
+Frame: 1000
+State: [766.1146    485.          5.          1.        485.        726.74207
+   5.         -1.        564.1683    485.          2.5320554   1.
+ 485.        478.69928     5.         -1.        485.        227.9407
+   5.         -1.        176.89003   485.          5.          1.
+ 485.          0.          3.         -1.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 7
+Collision count: 18
+Add car fail count: 0
+Flow: 0.007
+Cars:
+Car: 766.114622802503, 485.0, 5, 1
+Car: 485.0, 726.7420936671788, 5, -1
+Car: 564.168286283467, 485.0, 2.532055378820508, 1
+Car: 485.0, 478.69929072459485, 5, -1
+Car: 485.0, 227.94070872740784, 5, -1
+Car: 176.89003280528544, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1021, Reward: 25929
+Episode 1022, Reward: 18649
+Episode 1023, Reward: 14107
+Episode 1024, Reward: 35365
+Episode 1025, Reward: 19707
+Episode 1026, Reward: 17582
+Episode 1027, Reward: 13060
+Episode 1028, Reward: 16563
+Episode 1029, Reward: 20349
+Episode 1030, Reward: 31668
+Episode 1031, Reward: 17523
+Episode 1032, Reward: 27462
+Episode 1033, Reward: 11518
+Episode 1034, Reward: 28718
+Episode 1035, Reward: 28891
+Episode 1036, Reward: 6813
+Episode 1037, Reward: 21623
+Episode 1038, Reward: 12510
+Episode 1039, Reward: 20880
+Episode 1040, Reward: 11774
+Frame: 1000
+State: [866.18195   485.          4.2503643   1.        485.        436.9977
+   0.         -1.        578.7448    485.          5.          1.
+ 485.        228.737       5.         -1.        178.22154   485.
+   5.          1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 18
+Add car fail count: 0
+Flow: 0.008
+Cars:
+Car: 866.1819596167805, 485.0, 4.25036419352019, 1
+Car: 485.0, 436.9977149263174, 0, -1
+Car: 578.7447947742788, 485.0, 5, 1
+Car: 485.0, 228.73700110996162, 5, -1
+Car: 178.2215492374582, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1041, Reward: 28179
+Episode 1042, Reward: 33319
+Episode 1043, Reward: 23343
+Episode 1044, Reward: 14184
+Episode 1045, Reward: 26480
+Episode 1046, Reward: 33273
+Episode 1047, Reward: 10672
+Episode 1048, Reward: 23841
+Episode 1049, Reward: 30769
+Episode 1050, Reward: 13200
+Episode 1051, Reward: 38396
+Episode 1052, Reward: 39545
+Episode 1053, Reward: 36900
+Episode 1054, Reward: 22569
+Episode 1055, Reward: 28686
+Episode 1056, Reward: 30166
+Episode 1057, Reward: 19242
+Episode 1058, Reward: 15795
+Episode 1059, Reward: 30830
+Episode 1060, Reward: 27296
+Frame: 1000
+State: [206.28647   485.          5.          1.        485.        228.60071
+   5.         -1.         20.76893   485.          0.9943953   1.
+ 485.          0.          3.         -1.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 4
+Collision count: 22
+Add car fail count: 1
+Flow: 0.005
+Cars:
+Car: 206.2864715365226, 485.0, 5, 1
+Car: 485.0, 228.60070546439937, 5, -1
+Car: 20.76892990499737, 485.0, 0.9943953422181324, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1061, Reward: 14274
+Episode 1062, Reward: 32215
+Episode 1063, Reward: 29758
+Episode 1064, Reward: 25179
+Episode 1065, Reward: 22780
+Episode 1066, Reward: 13364
+Episode 1067, Reward: 12256
+Episode 1068, Reward: 38156
+Episode 1069, Reward: 28226
+Episode 1070, Reward: 24159
+Episode 1071, Reward: 24827
+Episode 1072, Reward: 9597
+Episode 1073, Reward: 9912
+Episode 1074, Reward: 25580
+Episode 1075, Reward: 22295
+Episode 1076, Reward: 22869
+Episode 1077, Reward: 15591
+Episode 1078, Reward: 27634
+Episode 1079, Reward: 7178
+Episode 1080, Reward: 29902
+Frame: 1000
+State: [485.      832.558     5.       -1.      488.1674  485.        0.
+   1.      175.30226 485.        5.        1.      485.        0.
+   3.       -1.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 4
+Collision count: 16
+Add car fail count: 2
+Flow: 0.01
+Cars:
+Car: 485.0, 832.5579545722783, 5, -1
+Car: 488.1673948815795, 485.0, 0, 1
+Car: 175.30225696957316, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1081, Reward: 29681
+Episode 1082, Reward: 35389
+Episode 1083, Reward: 4203
+Episode 1084, Reward: 4207
+Episode 1085, Reward: -8679
+Episode 1086, Reward: 20371
+Episode 1087, Reward: 8450
+Episode 1088, Reward: 5286
+Episode 1089, Reward: 19086
+Episode 1090, Reward: 21132
+Episode 1091, Reward: 14342
+Episode 1092, Reward: 28018
+Episode 1093, Reward: -3785
+Episode 1094, Reward: 9486
+Episode 1095, Reward: 22068
+Episode 1096, Reward: 5374
+Episode 1097, Reward: 17804
+Episode 1098, Reward: 16771
+Episode 1099, Reward: 21997
+Episode 1100, Reward: 20089
+Frame: 1000
+State: [485.      274.86243   0.       -1.      485.      119.43359   0.
+  -1.      178.07333 485.        5.        1.      485.        0.
+   3.       -1.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 4
+Collision count: 22
+Add car fail count: 1
+Flow: 0.005
+Cars:
+Car: 485.0, 274.8624391722113, 0, -1
+Car: 485.0, 119.43359720104401, 0, -1
+Car: 178.07333603092172, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1101, Reward: 8434
+Episode 1102, Reward: 6259
+Episode 1103, Reward: 12557
+Episode 1104, Reward: 8186
+Episode 1105, Reward: 5417
+Episode 1106, Reward: 13814
+Episode 1107, Reward: 16460
+Episode 1108, Reward: 10780
+Episode 1109, Reward: 6640
+Episode 1110, Reward: 7891
+Episode 1111, Reward: 8688
+Episode 1112, Reward: 18712
+Episode 1113, Reward: 7148
+Episode 1114, Reward: 9321
+Episode 1115, Reward: 17237
+Episode 1116, Reward: -6043
+Episode 1117, Reward: 16614
+Episode 1118, Reward: 4217
+Episode 1119, Reward: 1880
+Episode 1120, Reward: -12913
+Frame: 1000
+State: [316.55753   485.          2.0354176   1.        485.        727.4855
+   5.         -1.         13.940539  485.          0.          1.
+ 485.         41.554707    2.0055594  -1.        485.          0.
+   3.         -1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 5
+Collision count: 22
+Add car fail count: 2
+Flow: 0.003
+Cars:
+Car: 316.5575361454164, 485.0, 2.0354176450931654, 1
+Car: 485.0, 727.4854711305663, 5, -1
+Car: 13.940538944461284, 485.0, 0, 1
+Car: 485.0, 41.55470562541976, 2.005559535415926, -1
+Car: 485.0, 0, 3, -1
+
+Episode 1121, Reward: 2424
+Episode 1122, Reward: 4137
+Episode 1123, Reward: 9428
+Episode 1124, Reward: 876
+Episode 1125, Reward: -1034
+Episode 1126, Reward: 243
+Episode 1127, Reward: 4092
+Episode 1128, Reward: 1485
+Episode 1129, Reward: -5396
+Episode 1130, Reward: 9172
+Episode 1131, Reward: 2032
+Episode 1132, Reward: 1794
+Episode 1133, Reward: 4012
+Episode 1134, Reward: 8116
+Episode 1135, Reward: 5942
+Episode 1136, Reward: 7190
+Episode 1137, Reward: -1419
+Episode 1138, Reward: 8692
+Episode 1139, Reward: 7102
+Episode 1140, Reward: 7158
+Frame: 1000
+State: [485.        886.4828      4.503189   -1.        485.        228.38994
+   0.         -1.        576.01074   485.          5.          1.
+ 485.         83.743       3.348914   -1.         33.420784  485.
+   1.7096424   1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 14
+Add car fail count: 6
+Flow: 0.006
+Cars:
+Car: 485.0, 886.4827609385601, 4.503189264142873, -1
+Car: 485.0, 228.38993600031688, 0, -1
+Car: 576.0107505429835, 485.0, 5, 1
+Car: 485.0, 83.74299962669805, 3.348913918608482, -1
+Car: 33.42078555634623, 485.0, 1.7096423826467566, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1141, Reward: 10437
+Episode 1142, Reward: 5845
+Episode 1143, Reward: 5968
+Episode 1144, Reward: -3977
+Episode 1145, Reward: 1147
+Episode 1146, Reward: -6175
+Episode 1147, Reward: -5557
+Episode 1148, Reward: 24387
+Episode 1149, Reward: -835
+Episode 1150, Reward: 3550
+Episode 1151, Reward: 5816
+Episode 1152, Reward: -96
+Episode 1153, Reward: 18427
+Episode 1154, Reward: 14187
+Episode 1155, Reward: -2198
+Episode 1156, Reward: 14235
+Episode 1157, Reward: 13297
+Episode 1158, Reward: 5772
+Episode 1159, Reward: 12901
+Episode 1160, Reward: 10769
+Frame: 1000
+State: [956.75574   485.          0.          1.        485.        845.6524
+   1.2010641  -1.        405.4644    485.          3.1609263   1.
+ 485.        229.50557     5.         -1.        152.59395   485.
+   5.          1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 20
+Add car fail count: 2
+Flow: 0.004
+Cars:
+Car: 956.7557069734594, 485.0, 0, 1
+Car: 485.0, 845.6524190945809, 1.2010641501216648, -1
+Car: 405.4643865685803, 485.0, 3.1609262462320538, 1
+Car: 485.0, 229.5055624026025, 5, -1
+Car: 152.59394719015137, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1161, Reward: 6575
+Episode 1162, Reward: 9577
+Episode 1163, Reward: 10810
+Episode 1164, Reward: 5671
+Episode 1165, Reward: -1506
+Episode 1166, Reward: 1126
+Episode 1167, Reward: -899
+Episode 1168, Reward: 10954
+Episode 1169, Reward: 1243
+Episode 1170, Reward: 4460
+Episode 1171, Reward: 8136
+Episode 1172, Reward: 5426
+Episode 1173, Reward: 8884
+Episode 1174, Reward: -361
+Episode 1175, Reward: 4365
+Episode 1176, Reward: 11909
+Episode 1177, Reward: 4439
+Episode 1178, Reward: 10011
+Episode 1179, Reward: 15202
+Episode 1180, Reward: 11251
+Frame: 1000
+State: [119.28423   485.          4.1603208   1.        485.        477.41956
+   5.         -1.        485.        228.77296     5.         -1.
+ 485.          0.          3.         -1.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 4
+Collision count: 22
+Add car fail count: 1
+Flow: 0.005
+Cars:
+Car: 119.28423643446256, 485.0, 4.1603206379921005, 1
+Car: 485.0, 477.41955759463656, 5, -1
+Car: 485.0, 228.7729581303259, 5, -1
+Car: 485.0, 0, 3, -1
+
+Episode 1181, Reward: -985
+Episode 1182, Reward: 18594
+Episode 1183, Reward: 13151
+Episode 1184, Reward: 4361
+Episode 1185, Reward: 6806
+Episode 1186, Reward: 5531
+Episode 1187, Reward: 1868
+Episode 1188, Reward: 1222
+Episode 1189, Reward: 6016
+Episode 1190, Reward: 5865
+Episode 1191, Reward: 194
+Episode 1192, Reward: 11138
+Episode 1193, Reward: 1086
+Episode 1194, Reward: 14879
+Episode 1195, Reward: 12546
+Episode 1196, Reward: -2800
+Episode 1197, Reward: 11283
+Episode 1198, Reward: 9336
+Episode 1199, Reward: 7102
+Episode 1200, Reward: 14256
+Frame: 1000
+State: [571.6501    485.          3.6595864   1.        485.         14.679785
+   0.         -1.        178.32722   485.          5.          1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 3
+Collision count: 18
+Add car fail count: 7
+Flow: 0.004
+Cars:
+Car: 571.6501148890254, 485.0, 3.659586375975147, 1
+Car: 485.0, 14.679785248714994, 0, -1
+Car: 178.327223383487, 485.0, 5, 1
+
+Episode 1201, Reward: -3832
+Episode 1202, Reward: 7218
+Episode 1203, Reward: -2838
+Episode 1204, Reward: 1723
+Episode 1205, Reward: 12141
+Episode 1206, Reward: 14952
+Episode 1207, Reward: 3184
+Episode 1208, Reward: 6863
+Episode 1209, Reward: 2401
+Episode 1210, Reward: -326
+Episode 1211, Reward: 11531
+Episode 1212, Reward: 10197
+Episode 1213, Reward: 8808
+Episode 1214, Reward: 16726
+Episode 1215, Reward: 3855
+Episode 1216, Reward: 33899
+Episode 1217, Reward: 22385
+Episode 1218, Reward: 17917
+Episode 1219, Reward: 22929
+Episode 1220, Reward: 29150
+Frame: 1000
+State: [485.         72.215225    1.3023235  -1.        179.1663    485.
+   5.          1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 3
+Collision count: 16
+Add car fail count: 1
+Flow: 0.012
+Cars:
+Car: 485.0, 72.21522656383596, 1.3023234353916533, -1
+Car: 179.1663114692592, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1221, Reward: 25765
+Episode 1222, Reward: 17504
+Episode 1223, Reward: 15627
+Episode 1224, Reward: 9874
+Episode 1225, Reward: 17389
+Episode 1226, Reward: 32655
+Episode 1227, Reward: 19310
+Episode 1228, Reward: 15884
+Episode 1229, Reward: 4026
+Episode 1230, Reward: 19067
+Episode 1231, Reward: 15919
+Episode 1232, Reward: 15399
+Episode 1233, Reward: 16110
+Episode 1234, Reward: 1925
+Episode 1235, Reward: 17288
+Episode 1236, Reward: 10874
+Episode 1237, Reward: 14038
+Episode 1238, Reward: 8913
+Episode 1239, Reward: 20234
+Episode 1240, Reward: 21645
+Frame: 1000
+State: [819.1463    485.          1.8668828   1.        485.        818.8269
+   0.         -1.        485.         27.889383    0.         -1.
+ 574.70886   485.          5.          1.        178.37466   485.
+   5.          1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 5
+Collision count: 14
+Add car fail count: 6
+Flow: 0.007
+Cars:
+Car: 819.1462770620759, 485.0, 1.8668827623540274, 1
+Car: 485.0, 818.8268958567804, 0, -1
+Car: 485.0, 27.88938248511558, 0, -1
+Car: 574.7088440659734, 485.0, 5, 1
+Car: 178.37466315956488, 485.0, 5, 1
+
+Episode 1241, Reward: 18940
+Episode 1242, Reward: 15282
+Episode 1243, Reward: 27463
+Episode 1244, Reward: 13919
+Episode 1245, Reward: 24423
+Episode 1246, Reward: 1814
+Episode 1247, Reward: 23608
+Episode 1248, Reward: 12943
+Episode 1249, Reward: 9768
+Episode 1250, Reward: 7433
+Episode 1251, Reward: 6168
+Episode 1252, Reward: 31009
+Episode 1253, Reward: 3014
+Episode 1254, Reward: 4924
+Episode 1255, Reward: 7361
+Episode 1256, Reward: 16086
+Episode 1257, Reward: 21689
+Episode 1258, Reward: 13400
+Episode 1259, Reward: -3615
+Episode 1260, Reward: 6962
+Frame: 1000
+State: [485.      288.06577   0.       -1.      485.       63.65409   0.
+  -1.      179.37675 485.        5.        1.      485.        0.
+   3.       -1.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 4
+Collision count: 22
+Add car fail count: 0
+Flow: 0.006
+Cars:
+Car: 485.0, 288.0657605205025, 0, -1
+Car: 485.0, 63.65409026273005, 0, -1
+Car: 179.37676139940208, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1261, Reward: 5415
+Episode 1262, Reward: 4338
+Episode 1263, Reward: 9683
+Episode 1264, Reward: 8959
+Episode 1265, Reward: 5641
+Episode 1266, Reward: 6765
+Episode 1267, Reward: 18890
+Episode 1268, Reward: 9677
+Episode 1269, Reward: 7059
+Episode 1270, Reward: 4873
+Episode 1271, Reward: 503
+Episode 1272, Reward: -2374
+Episode 1273, Reward: 7320
+Episode 1274, Reward: 13402
+Episode 1275, Reward: 1568
+Episode 1276, Reward: 5757
+Episode 1277, Reward: 651
+Episode 1278, Reward: 10657
+Episode 1279, Reward: 2639
+Episode 1280, Reward: -9816
+Frame: 1000
+State: [485.        720.12946     2.3984914  -1.        408.08527   485.
+   5.          1.        485.        226.0045      5.         -1.
+  52.781124  485.          2.4129992   1.        485.          0.
+   3.         -1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 5
+Collision count: 22
+Add car fail count: 1
+Flow: 0.004
+Cars:
+Car: 485.0, 720.1294373952036, 2.3984913530661998, -1
+Car: 408.0852727457846, 485.0, 5, 1
+Car: 485.0, 226.0045060186065, 5, -1
+Car: 52.781125634622484, 485.0, 2.4129992116412984, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1281, Reward: 1619
+Episode 1282, Reward: 6448
+Episode 1283, Reward: -2721
+Episode 1284, Reward: 18099
+Episode 1285, Reward: 14412
+Episode 1286, Reward: 14365
+Episode 1287, Reward: 20260
+Episode 1288, Reward: 23600
+Episode 1289, Reward: 8335
+Episode 1290, Reward: 9172
+Episode 1291, Reward: 17636
+Episode 1292, Reward: 11225
+Episode 1293, Reward: 4948
+Episode 1294, Reward: -1818
+Episode 1295, Reward: 12188
+Episode 1296, Reward: 13509
+Episode 1297, Reward: 11955
+Episode 1298, Reward: 7719
+Episode 1299, Reward: 11322
+Episode 1300, Reward: 8173
+Frame: 1000
+State: [224.12723   485.          2.8925905   1.        166.8075    485.
+   5.          1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 3
+Collision count: 18
+Add car fail count: 3
+Flow: 0.008
+Cars:
+Car: 224.12722461985152, 485.0, 2.892590590451795, 1
+Car: 166.80749705993674, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1301, Reward: 5476
+Episode 1302, Reward: -1182
+Episode 1303, Reward: 6619
+Episode 1304, Reward: 12014
+Episode 1305, Reward: 18465
+Episode 1306, Reward: 19697
+Episode 1307, Reward: 9335
+Episode 1308, Reward: 6027
+Episode 1309, Reward: 26108
+Episode 1310, Reward: -3620
+Episode 1311, Reward: 2374
+Episode 1312, Reward: 17922
+Episode 1313, Reward: -6648
+Episode 1314, Reward: -1299
+Episode 1315, Reward: 1442
+Episode 1316, Reward: 13886
+Episode 1317, Reward: 6000
+Episode 1318, Reward: 5985
+Episode 1319, Reward: 11194
+Episode 1320, Reward: 17239
+Frame: 1000
+State: [485.      789.0372    5.       -1.      510.8105  485.        4.7
+   1.      485.      227.41483   5.       -1.      176.71141 485.
+   5.        1.      485.        0.        3.       -1.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.        0.        0.        0.        0.        0.        0.
+   0.     ]
+Car count: 5
+Collision count: 18
+Add car fail count: 2
+Flow: 0.007
+Cars:
+Car: 485.0, 789.0371909195961, 5, -1
+Car: 510.8104793769777, 485.0, 4.699999988079071, 1
+Car: 485.0, 227.41482760327852, 5, -1
+Car: 176.7114078664133, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1321, Reward: 12959
+Episode 1322, Reward: 15136
+Episode 1323, Reward: 1588
+Episode 1324, Reward: 10322
+Episode 1325, Reward: 25360
+Episode 1326, Reward: -3587
+Episode 1327, Reward: -1996
+Episode 1328, Reward: -11029
+Episode 1329, Reward: -13363
+Episode 1330, Reward: 87
+Episode 1331, Reward: -2657
+Episode 1332, Reward: 5795
+Episode 1333, Reward: 596
+Episode 1334, Reward: 2811
+Episode 1335, Reward: 9581
+Episode 1336, Reward: 1896
+Episode 1337, Reward: 8737
+Episode 1338, Reward: 1311
+Episode 1339, Reward: -4767
+Episode 1340, Reward: -5019
+Frame: 1000
+State: [485.       352.3002     4.161986  -1.       391.39474  485.
+   5.         1.       485.        58.14118    0.        -1.
+ 174.79028  485.         5.         1.       485.         0.
+   3.        -1.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.      ]
+Car count: 5
+Collision count: 18
+Add car fail count: 3
+Flow: 0.006
+Cars:
+Car: 485.0, 352.30019502503654, 4.161985816898455, -1
+Car: 391.3947341375357, 485.0, 5, 1
+Car: 485.0, 58.141179675144315, 0, -1
+Car: 174.79027963652868, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1341, Reward: 6076
+Episode 1342, Reward: -1580
+Episode 1343, Reward: -4078
+Episode 1344, Reward: 2904
+Episode 1345, Reward: 7030
+Episode 1346, Reward: 14971
+Episode 1347, Reward: 20706
+Episode 1348, Reward: 15603
+Episode 1349, Reward: 15454
+Episode 1350, Reward: 9688
+Episode 1351, Reward: 8862
+Episode 1352, Reward: 9651
+Episode 1353, Reward: 3730
+Episode 1354, Reward: 5881
+Episode 1355, Reward: 6282
+Episode 1356, Reward: 6657
+Episode 1357, Reward: 351
+Episode 1358, Reward: 5653
+Episode 1359, Reward: 9982
+Episode 1360, Reward: 13615
+Frame: 1000
+State: [485.        661.41516     1.8400568  -1.        439.6374    485.
+   1.6189802   1.        485.        162.24843     0.         -1.
+ 178.41423   485.          5.          1.        485.          0.
+   3.         -1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 5
+Collision count: 20
+Add car fail count: 3
+Flow: 0.004
+Cars:
+Car: 485.0, 661.4151494609337, 1.840056766187018, -1
+Car: 439.6373789212936, 485.0, 1.6189801869472578, 1
+Car: 485.0, 162.24842508643255, 0, -1
+Car: 178.41422627518023, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1361, Reward: 1164
+Episode 1362, Reward: -3847
+Episode 1363, Reward: -8140
+Episode 1364, Reward: -5144
+Episode 1365, Reward: -9362
+Episode 1366, Reward: -3147
+Episode 1367, Reward: 11198
+Episode 1368, Reward: 19987
+Episode 1369, Reward: 6961
+Episode 1370, Reward: -104
+Episode 1371, Reward: 756
+Episode 1372, Reward: 10140
+Episode 1373, Reward: 24285
+Episode 1374, Reward: 4836
+Episode 1375, Reward: 19172
+Episode 1376, Reward: 3907
+Episode 1377, Reward: 5521
+Episode 1378, Reward: 15602
+Episode 1379, Reward: 3077
+Episode 1380, Reward: 7369
+Frame: 1000
+State: [485.       940.7592     5.        -1.        68.50892  485.
+   0.         1.        14.504504 485.         0.         1.
+ 485.       477.07364    5.        -1.       485.        14.70796
+   0.        -1.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.      ]
+Car count: 5
+Collision count: 18
+Add car fail count: 5
+Flow: 0.004
+Cars:
+Car: 485.0, 940.7592242222274, 5, -1
+Car: 68.50892170072686, 485.0, 0, 1
+Car: 14.504504416382014, 485.0, 0, 1
+Car: 485.0, 477.0736288168627, 5, -1
+Car: 485.0, 14.70795989734113, 0, -1
+
+Episode 1381, Reward: 4077
+Episode 1382, Reward: 8417
+Episode 1383, Reward: 7028
+Episode 1384, Reward: 12544
+Episode 1385, Reward: -3680
+Episode 1386, Reward: 15632
+Episode 1387, Reward: 16750
+Episode 1388, Reward: 7589
+Episode 1389, Reward: 1858
+Episode 1390, Reward: -4303
+Episode 1391, Reward: -3205
+Episode 1392, Reward: 18563
+Episode 1393, Reward: 15148
+Episode 1394, Reward: 3560
+Episode 1395, Reward: 3211
+Episode 1396, Reward: 5455
+Episode 1397, Reward: 12057
+Episode 1398, Reward: -8602
+Episode 1399, Reward: 5897
+Episode 1400, Reward: 13279
+Frame: 1000
+State: [485.        788.3198      5.         -1.        894.8119    485.
+   5.          1.        351.40005   485.          5.          1.
+ 485.        316.6149      4.2694263  -1.        142.4428    485.
+   5.          1.        485.          0.          3.         -1.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 6
+Collision count: 14
+Add car fail count: 7
+Flow: 0.005
+Cars:
+Car: 485.0, 788.3197988318979, 5, -1
+Car: 894.8118666030537, 485.0, 5, 1
+Car: 351.40006504378954, 485.0, 5, 1
+Car: 485.0, 316.61489692597144, 4.269426500227625, -1
+Car: 142.44279678354536, 485.0, 5, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1401, Reward: 809
+Episode 1402, Reward: 5627
+Episode 1403, Reward: 3300
+Episode 1404, Reward: -1562
+Episode 1405, Reward: 11325
+Episode 1406, Reward: -1067
+Episode 1407, Reward: 9008
+Episode 1408, Reward: 413
+Episode 1409, Reward: -4539
+Episode 1410, Reward: 11665
+Episode 1411, Reward: 12554
+Episode 1412, Reward: -3037
+Episode 1413, Reward: 7989
+Episode 1414, Reward: 14040
+Episode 1415, Reward: -6544
+Episode 1416, Reward: -7097
+Episode 1417, Reward: 3173
+Episode 1418, Reward: 9092
+Episode 1419, Reward: -8005
+Episode 1420, Reward: -4004
+Frame: 1000
+State: [919.946     485.          5.          1.        485.        444.9629
+   0.         -1.        410.52136   485.          2.1584032   1.
+  47.831635  485.          2.3537874   1.        485.          0.
+   3.         -1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 5
+Collision count: 18
+Add car fail count: 3
+Flow: 0.006
+Cars:
+Car: 919.9460112014681, 485.0, 5, 1
+Car: 485.0, 444.96289956360977, 0, -1
+Car: 410.5213553542545, 485.0, 2.158403260843279, 1
+Car: 47.83163507309526, 485.0, 2.3537873817285555, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1421, Reward: 4955
+Episode 1422, Reward: -8477
+Episode 1423, Reward: -9344
+Episode 1424, Reward: -7801
+Episode 1425, Reward: 2097
+Episode 1426, Reward: -3327
+Episode 1427, Reward: -5609
+Episode 1428, Reward: -15517
+Episode 1429, Reward: 1462
+Episode 1430, Reward: 1655
+Episode 1431, Reward: -12590
+Episode 1432, Reward: 288
+Episode 1433, Reward: -11272
+Episode 1434, Reward: -7229
+Episode 1435, Reward: -9799
+Episode 1436, Reward: 3982
+Episode 1437, Reward: -2820
+Episode 1438, Reward: -13727
+Episode 1439, Reward: -15519
+Episode 1440, Reward: -5738
+Frame: 1000
+State: [796.2484    485.          2.218208    1.         14.2564945 485.
+   0.          1.        485.        480.06583     5.         -1.
+ 485.        228.66782     5.         -1.        485.          0.
+   3.         -1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 5
+Collision count: 20
+Add car fail count: 6
+Flow: 0.001
+Cars:
+Car: 796.2484171484174, 485.0, 2.2182080713315444, 1
+Car: 14.256494686325986, 485.0, 0, 1
+Car: 485.0, 480.065817798317, 5, -1
+Car: 485.0, 228.66781892591297, 5, -1
+Car: 485.0, 0, 3, -1
+
+Episode 1441, Reward: -21398
+Episode 1442, Reward: -13081
+Episode 1443, Reward: -794
+Episode 1444, Reward: -12991
+Episode 1445, Reward: -9655
+Episode 1446, Reward: -8168
+Episode 1447, Reward: -15424
+Episode 1448, Reward: -16038
+Episode 1449, Reward: -15416
+Episode 1450, Reward: -6175
+Episode 1451, Reward: -6005
+Episode 1452, Reward: -10501
+Episode 1453, Reward: -8541
+Episode 1454, Reward: -9834
+Episode 1455, Reward: -10596
+Episode 1456, Reward: -15008
+Episode 1457, Reward: -15926
+Episode 1458, Reward: -13074
+Episode 1459, Reward: 7143
+Episode 1460, Reward: -15605
+Frame: 1000
+State: [485.       984.2607     0.        -1.       520.33154  485.
+   0.         1.        59.181362 485.         0.         1.
+ 485.         0.         3.        -1.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.         0.         0.
+   0.         0.         0.         0.      ]
+Car count: 4
+Collision count: 22
+Add car fail count: 1
+Flow: 0.005
+Cars:
+Car: 485.0, 984.2607022676262, 0, -1
+Car: 520.3315173676444, 485.0, 0, 1
+Car: 59.18136233791994, 485.0, 0, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1461, Reward: 868
+Episode 1462, Reward: -2503
+Episode 1463, Reward: -299
+Episode 1464, Reward: -5554
+Episode 1465, Reward: 16957
+Episode 1466, Reward: 7521
+Episode 1467, Reward: 14976
+Episode 1468, Reward: -3766
+Episode 1469, Reward: 11015
+Episode 1470, Reward: -12099
+Episode 1471, Reward: 11856
+Episode 1472, Reward: 4049
+Episode 1473, Reward: 3316
+Episode 1474, Reward: -10715
+Episode 1475, Reward: -14864
+Episode 1476, Reward: -8712
+Episode 1477, Reward: -16056
+Episode 1478, Reward: -2133
+Episode 1479, Reward: 12342
+Episode 1480, Reward: -12043
+Frame: 1000
+State: [959.31085   485.          5.          1.        379.06616   485.
+   0.          1.        485.        600.4149      5.         -1.
+ 178.0462    485.          3.2391837   1.        485.        433.72937
+   5.         -1.        485.        224.68338     5.         -1.
+  15.092395  485.          0.          1.        485.          0.
+   3.         -1.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.          0.       ]
+Car count: 8
+Collision count: 16
+Add car fail count: 5
+Flow: 0.003
+Cars:
+Car: 959.3108807511807, 485.0, 5, 1
+Car: 379.06616151965994, 485.0, 0, 1
+Car: 485.0, 600.4148962914898, 5, -1
+Car: 178.04620964983968, 485.0, 3.239183692367943, 1
+Car: 485.0, 433.7293598808178, 5, -1
+Car: 485.0, 224.68337766672576, 5, -1
+Car: 15.092394667468078, 485.0, 0, 1
+Car: 485.0, 0, 3, -1
+
+Episode 1481, Reward: 2690
+Episode 1482, Reward: 3229
+Episode 1483, Reward: -5994
+Episode 1484, Reward: 13143
+Episode 1485, Reward: -8361
+Episode 1486, Reward: -2057
+Episode 1487, Reward: -25062
+Episode 1488, Reward: -42505
+Episode 1489, Reward: -583
+Episode 1490, Reward: 3327
+Episode 1491, Reward: 11346
+Episode 1492, Reward: -12149
+Episode 1493, Reward: 1908
+Episode 1494, Reward: -7107
+Episode 1495, Reward: 3459
+Episode 1496, Reward: 5572
+Episode 1497, Reward: -5279
+Episode 1498, Reward: 2526
+Episode 1499, Reward: -2417
+Episode 1500, Reward: -13972
+Training completed

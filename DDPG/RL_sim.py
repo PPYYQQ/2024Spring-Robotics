@@ -9,6 +9,7 @@ import numpy as np
 from collections import namedtuple, deque
 
 from utils_RL import DDPG, CarEnv
+import argparse
 
 # 初始化pygame
 pygame.init()
@@ -38,8 +39,24 @@ delay = 0
 flow = 0
 
 add_car_fail = 0
+parser = argparse.ArgumentParser()
+parser.add_argument("--seed", type=int, default=42)
+parser.add_argument("--frames1",type=int, default=100, help="How many frames to add a car from the probability")
+parser.add_argument("--frames2",type=int, default=40, help="How many frames to add a car from the probability")
+parser.add_argument("--prob1",type=float, default=1, help="The probability to add a car")
+parser.add_argument("--prob2",type=float, default=1, help="The probability to add a car")
+parser.add_argument("--prefix", type=str, default="net", help="The prefix of the model name")
 
-env = CarEnv()
+args = parser.parse_args()
+def seed_everything(seed=42):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+
+seed_everything(args.seed)
+env = CarEnv(args.frames1, args.frames2, args.prob1, args.prob2)
 state_dim = env.observation_space.shape[0]
 action_dim = env.action_space.shape[0]
 min_action = env.action_space.low[0]
@@ -47,8 +64,10 @@ max_action = env.action_space.high[0]
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 ddpg_agent = DDPG(state_dim, action_dim, min_action, max_action, device)
-ddpg_agent.actor.load_state_dict(torch.load("Actor_best_-64000.pth", map_location=torch.device('cpu')))
-ddpg_agent.critic.load_state_dict(torch.load("Critic_best_-64000.pth", map_location=torch.device('cpu')))
+path_actor = "models/Actor_best_80_50_1_1_net_59644.pth"
+path_critic = "models/Critic_best_80_50_1_1_net_59644.pth"
+ddpg_agent.actor.load_state_dict(torch.load(path_actor, map_location=torch.device('cpu')))
+ddpg_agent.critic.load_state_dict(torch.load(path_critic, map_location=torch.device('cpu')))
 ddpg_agent.actor_target.load_state_dict(ddpg_agent.actor.state_dict())
 ddpg_agent.critic_target.load_state_dict(ddpg_agent.critic.state_dict())
 print("Models loaded")
