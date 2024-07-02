@@ -64,8 +64,8 @@ max_action = env.action_space.high[0]
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 ddpg_agent = DDPG(state_dim, action_dim, min_action, max_action, device)
-path_actor = "models/Actor_best_80_50_1_1_net_59644.pth"
-path_critic = "models/Critic_best_80_50_1_1_net_59644.pth"
+path_actor = "../Actor_best_80_50_1_1_net_59644.pth"
+path_critic = "../Critic_best_80_50_1_1_net_59644.pth"
 ddpg_agent.actor.load_state_dict(torch.load(path_actor, map_location=torch.device('cpu')))
 ddpg_agent.critic.load_state_dict(torch.load(path_critic, map_location=torch.device('cpu')))
 ddpg_agent.actor_target.load_state_dict(ddpg_agent.actor.state_dict())
